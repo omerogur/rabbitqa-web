@@ -1,0 +1,956 @@
+{
+ "agents": [
+  {
+   "id": "business-agent",
+   "urlSlug": "business-agents",
+   "order": 1,
+   "name": "Business Agents",
+   "tagline": "The Most Expensive Defect is Building The Wrong Thing.",
+   "metaTitle": "Business Agents: AI Requirement Governance | RabbitQA",
+   "metaDescription": "SmartRequest, Analyzer and SmartPBI catch ambiguous and conflicting requirements before code is written, then generate testable PBIs with acceptance criteria.",
+   "problem": "Ambiguous requirements turn into rework, scope creep, and late-stage defects. Business Agents govern demand intake so only structured, validated, and testable work enters the backlog.",
+   "problemHeading": "The Hidden Cost of Poor Requirements",
+   "problemIntro": "Poor requirement quality is the silent driver behind most delivery failures. The most expensive defect is not a bug found in production, it is building the wrong thing entirely because requirements were vague, contradictory, or untestable.",
+   "warnings": [
+    "Fragmented business intake across channels",
+    "Unstructured and incomplete requirements",
+    "Backlog items not testable by design",
+    "Hidden ambiguities discovered during development",
+    "Rework and scope correction becoming normalized",
+    "No traceability between demand and delivery"
+   ],
+   "modules": [
+    {
+     "name": "SmartRequest",
+     "sub": "Structured Intake",
+     "desc": "A single, governed entry point for every business demand. What arrives incomplete or ambiguous is flagged before it reaches the backlog, not three sprints later.",
+     "coreFeatures": [
+      "Multi-channel aggregation from email, Confluence, Slack and Jira, into one structured request",
+      "Completeness validation at the point of submission, before anything reaches the backlog",
+      "Automatic flagging of incomplete or ambiguous submissions, with the reason attached",
+      "Intake templates configured to your own workflow, not a fixed schema"
+     ],
+     "keyCapabilities": [
+      "Clarification and rework stop consuming sprint capacity that was budgeted for delivery",
+      "Every business demand carries an auditable record of its validation status and who cleared it",
+      "The intake conversation happens once, at submission, rather than three times during refinement"
+     ]
+    },
+    {
+     "name": "Analyzer",
+     "sub": "Requirement Intelligence",
+     "desc": "Reads the requirement, asks what is missing, and scores it for clarity, completeness and testability. Gaps and contradictions surface at analysis, where fixing them costs a fraction of what it costs in production.",
+     "coreFeatures": [
+      "Quality scoring across completeness, clarity and testability, against thresholds you define",
+      "Detection of ambiguities, contradictions and missing acceptance criteria across the full requirement set",
+      "Questions raised back to the author, so the requirement improves rather than just gets graded",
+      "Gap analysis between what is stated and what a testable requirement actually needs"
+     ],
+     "keyCapabilities": [
+      "Ambiguity is caught during analysis, where fixing it costs a fraction of what it costs in production",
+      "A measurable requirement quality standard that holds the same across every squad",
+      "A product owner decides what passes, and that decision is recorded rather than assumed"
+     ]
+    },
+    {
+     "name": "SmartPBI",
+     "sub": "Testable Backlog Generation",
+     "desc": "Turns the cleared requirement into backlog items with acceptance criteria already written, so testability is a property of the item rather than something QA discovers later.",
+     "coreFeatures": [
+      "PBI generation from validated business requirements, with acceptance criteria written in",
+      "Testability enforced at generation, not reviewed after the fact",
+      "Bi-directional traceability linking every backlog item to the demand it came from",
+      "Jira and standard ALM integration, so nothing is re-entered by hand"
+     ],
+     "keyCapabilities": [
+      "The gap between business intent and development execution closes before anyone estimates it",
+      "Every backlog item is testable before it enters the sprint, which is the cheapest possible moment",
+      "Requirements that move take their backlog items with them, with the previous version kept"
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "cap": "Structured Demand Intake",
+     "delivers": "SmartRequest enforces a single, AI-powered entry point for all business demands, eliminating unstructured multi-channel intake that generates rework downstream."
+    },
+    {
+     "cap": "Requirement Quality Scoring",
+     "delivers": "Analyzer scores every requirement for completeness, clarity, and testability, flagging ambiguities and contradictions before they enter the sprint."
+    },
+    {
+     "cap": "Gap & Contradiction Detection",
+     "delivers": "AI detects hidden gaps and logical conflicts in requirements at the analysis stage, where fixing them costs 10-100x less than catching them in production."
+    },
+    {
+     "cap": "Auto-Generated Acceptance Criteria",
+     "delivers": "SmartPBI automatically generates acceptance criteria from validated requirements, ensuring every backlog item is testable before development begins."
+    },
+    {
+     "cap": "Full Traceability",
+     "delivers": "Every business demand is traceable from intake through requirement validation to the backlog item it produces, enabling audit-ready governance at every stage."
+    },
+    {
+     "cap": "Change-Based Regeneration",
+     "delivers": "When requirements change, SmartPBI regenerates affected backlog items automatically, keeping the backlog current without manual maintenance overhead."
+    }
+   ],
+   "impact": [
+    {
+     "value": "25-40%",
+     "label": "Rework Reduction"
+    },
+    {
+     "value": "15-25%",
+     "label": "Fewer Requirement Defects"
+    },
+    {
+     "value": "100%",
+     "label": "Requirement to Test Traceability"
+    }
+   ],
+   "lifecycleHeading": "Approved by you, carried by the platform",
+   "lifecycleIntro": "The requirement you signed off becomes the input Planning Agents work from and the standard Technical Agents measure against. Each stage produces, a person approves, and the same record holds both. No agent promotes its own output.",
+   "meaning": [
+    "Product leaders gain predictable backlog quality",
+    "Business & IT alignment improves structurally",
+    "QA receives testable requirements upfront",
+    "Engineering reduces clarification overhead"
+   ],
+   "builtFor": [
+    "Organizations with fragmented business intake",
+    "Enterprises suffering from high rework cost",
+    "Regulated industries requiring requirement traceability",
+    "Product teams scaling across multiple squads",
+    "Multiple channels, no unified intake process",
+    "Sprint capacity consumed by clarification & rework",
+    "Audit-ready evidence for every requirement decision",
+    "Consistent requirement quality regardless of squad size"
+   ],
+   "pullQuote": "",
+   "closing": {
+    "heading": "Stop Building the Wrong Thing.",
+    "body": "Talk to a RabbitQA specialist and see how Business Agents maps to your requirement intake process, your team structure, and your delivery challenges."
+   }
+  },
+  {
+   "id": "planning-agent",
+   "urlSlug": "planning-agents",
+   "order": 2,
+   "name": "Planning Agents",
+   "tagline": "Four Thousand Test Cases. Nobody Can Tell You What They Cover",
+   "metaTitle": "Planning Agents: Test Design, Runs and Data | RabbitQA",
+   "metaDescription": "CaseWriter generates cases from approved requirements, TestPilot shows release readiness, DataCrate produces GDPR-safe synthetic test data.",
+   "problem": "Volume is not coverage. Planning Agents trace every case to an approved requirement and regenerate it when the requirement changes. Test data is synthesised on demand, GDPR-safe, so nothing waits for a masked copy of production.",
+   "problemHeading": "The Hidden Cost of Scattered Test Knowledge",
+   "problemIntro": "When test knowledge lives in individuals, it walks out the door when they do. When coverage is tracked in spreadsheets, it is always incomplete and always outdated. When release decisions are based on gut feeling, production incidents are inevitable.",
+   "warnings": [
+    "Manual test creation slows coverage expansion",
+    "No single source of truth for test execution visibility",
+    "Test cases drift when requirements change",
+    "Unstable test data impacts coverage reliability",
+    "Audit preparation requires manual effort",
+    "Release decisions rely on incomplete insight"
+   ],
+   "modules": [
+    {
+     "name": "CaseWriter",
+     "sub": "AI Test Case Generation",
+     "desc": "Generates test cases from approved requirements in minutes rather than days, and regenerates them when the requirement changes so coverage does not quietly fall behind the product.",
+     "coreFeatures": [
+      "Generation from business requirements, user stories and acceptance criteria",
+      "Generation from a website URL, a Figma file or a specification document",
+      "Automatic regeneration when requirements change, with no manual maintenance",
+      "Coverage analysis identifying gaps between defined requirements and existing scenarios",
+      "A dedicated test case generated for a specific bug"
+     ],
+     "keyCapabilities": [
+      "Test cases in minutes instead of days, with 35-50% QA productivity improvement",
+      "Coverage scales with development velocity rather than with headcount",
+      "The suite stays accurate as requirements evolve, so stale scenarios stop eroding release confidence"
+     ]
+    },
+    {
+     "name": "TestPilot",
+     "sub": "Execution Governance",
+     "desc": "One view of every plan, run and result across squads and release branches, so release readiness is a number rather than the opinion of whoever sounds most certain in the meeting.",
+     "coreFeatures": [
+      "Live execution dashboard with coverage, pass rates and release readiness scoring",
+      "Automated evidence collection with full requirement to test to result traceability",
+      "Cross-team visibility across every squad and release branch",
+      "Configurable release gates enforcing quality thresholds before deployment approval"
+     ],
+     "keyCapabilities": [
+      "Release decisions stop resting on incomplete data or personal judgment",
+      "On-demand compliance reporting replaces 2-4 weeks of manual audit preparation",
+      "Every stakeholder, from QA engineer to CTO, reads the same source of quality truth"
+     ]
+    },
+    {
+     "name": "DataCrate",
+     "sub": "Stable Test Data Layer",
+     "desc": "Provisions the data every case needs to actually run. Synthetic and structurally valid, so environments do not wait weeks for a masked copy of production and no real record leaves its system.",
+     "coreFeatures": [
+      "Synthetic data generation on demand, matched to the schema the test expects",
+      "Domain templates for banking, insurance, retail and telecom, plus your own custom templates",
+      "GDPR-compliant generation, with no production records copied into test",
+      "Mock services for the dependencies that are not available when you need them"
+     ],
+     "keyCapabilities": [
+      "Environment availability stops being a blocker, because the data does not wait for a refresh",
+      "Regulatory exposure from production data in test is removed rather than managed",
+      "GAN-LLM synthetic generation is months of ML engineering, not something a team builds in a weekend"
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "cap": "AI Test Case Generation",
+     "delivers": "CaseWriter generates comprehensive test cases directly from requirements in minutes, not days. Test cases auto-update when requirements change, ensuring coverage never falls behind the pace of development."
+    },
+    {
+     "cap": "Real-Time Release Readiness",
+     "delivers": "TestPilot provides a live dashboard of execution status, coverage gaps, and release readiness scoring, replacing release decisions based on gut feeling with data-driven confidence."
+    },
+    {
+     "cap": "Cross-Team Coverage Alignment",
+     "delivers": "A single source of truth for test coverage across all squads and release branches, giving QA leaders and product managers unified visibility without chasing status updates."
+    },
+    {
+     "cap": "Audit-Proof Compliance Reports",
+     "delivers": "TestPilot generates audit-ready compliance evidence on demand, replacing 2-4 weeks of manual evidence gathering with instant, traceable documentation."
+    },
+    {
+     "cap": "GDPR-Compliant Synthetic Test Data",
+     "delivers": "DataCrate generates realistic, compliant synthetic test data on demand using GAN-LLM technology (IEEE UBMK 2025 validated), eliminating test environment blockers and production data exposure risk."
+    },
+    {
+     "cap": "Institutional Test Knowledge",
+     "delivers": "When QA engineers leave, the knowledge stays. Planning Agent captures every test case, every coverage decision, and every execution result as a permanent organizational asset."
+    }
+   ],
+   "impact": [
+    {
+     "value": "35-50%",
+     "label": "QA Productivity Gain"
+    },
+    {
+     "value": "30-40%",
+     "label": "Faster Test Preparation"
+    },
+    {
+     "value": "100%",
+     "label": "Centralized Visibility"
+    }
+   ],
+   "lifecycleHeading": "The chain your sign-off sits in",
+   "lifecycleIntro": "The coverage you approve came from a requirement someone else approved, and it becomes the standard an engineer measures execution against. Agents draft and execute; people decide what counts as ready. The record holds every one of those decisions with a name and a timestamp.",
+   "meaning": [
+    "QA scales without proportional headcount growth",
+    "Release decisions become data-driven",
+    "Coverage becomes measurable and auditable",
+    "Testing becomes institutional knowledge"
+   ],
+   "builtFor": [
+    "Large QA organizations with multiple squads",
+    "Regulated sectors requiring audit-ready traceability",
+    "High release frequency environments",
+    "Enterprises standardizing test governance",
+    "Coverage tracked in spreadsheets with no unified view",
+    "Compliance evidence assembled manually before every audit",
+    "Test cycles blocking releases due to manual bottlenecks",
+    "QA knowledge dependent on specific individuals"
+   ],
+   "pullQuote": "You can't govern what you can't see. Planning Agent makes testing visible.",
+   "closing": {
+    "heading": "Transform Testing Into a Governed System.",
+    "body": "Talk to a RabbitQA specialist and see how Planning Agent maps to your QA team structure, release cadence, and compliance requirements."
+   }
+  },
+  {
+   "id": "technical-agent",
+   "urlSlug": "technical-agents",
+   "order": 3,
+   "name": "Technical Agents",
+   "tagline": "Software Breaks in Three places. Most Platforms Watch One.",
+   "metaTitle": "Technical Agents: Execution, API and Production | RabbitQA",
+   "metaDescription": "AutoRunner runs suites in parallel with self healing, SmartAPI builds tests from OpenAPI, HealthCheck monitors system and security health in production.",
+   "problem": "In execution, flaky failures hide the real one. At integrations, contracts change and nobody tells you. In production, the first report comes from a customer. Technical Agents watch all three and write to the same record, so every incident traces back to the requirement that caused it.",
+   "problemHeading": "The Hidden Cost of Automation Instability",
+   "problemIntro": "Regression that blocks releases. API contract breaks discovered in production. Production failures found by customers before engineering. Every hour of pipeline instability costs engineering productivity, customer trust, and release confidence.",
+   "warnings": [
+    "Regression cycles delay releases",
+    "Automation instability erodes trust",
+    "API contract changes break integrations",
+    "Production issues detected too late",
+    "Monitoring is reactive, not predictive",
+    "Flaky tests waste engineering investigation time"
+   ],
+   "modules": [
+    {
+     "name": "AutoRunner",
+     "sub": "Parallel Test Execution Engine",
+     "desc": "Runs the suite across distributed infrastructure rather than sequentially, so a four-to-eight hour regression blocker becomes a minutes-scale gate. Flaky failures are separated out before an engineer sees them.",
+     "coreFeatures": [
+      "Massively parallel test execution across distributed infrastructure",
+      "Smart retry logic and flakiness detection that separates false failures from real ones",
+      "CI/CD integration with Jenkins, GitLab CI, GitHub Actions and Azure DevOps",
+      "Compatible with Selenium, Playwright, Appium, Cypress and the frameworks you already run"
+     ],
+     "keyCapabilities": [
+      "Regression drops from hours to minutes, accelerating release cycles by 40-60%",
+      "The 30% of unreliable failures stop consuming engineering time on false investigations",
+      "An engineer still decides what a real failure means, and nothing is promoted without that acceptance"
+     ]
+    },
+    {
+     "name": "SmartAPI",
+     "sub": "Integration Risk Control",
+     "desc": "Generates API tests from OpenAPI specifications and validates every contract continuously, so a processor or partner changing something upstream becomes a pipeline failure rather than a production incident.",
+     "coreFeatures": [
+      "Test generation directly from OpenAPI and Swagger specifications",
+      "Continuous contract validation running inside CI/CD",
+      "Breaking-change detection at the earliest possible stage",
+      "Regulatory validation for PSD2, banking APIs and regulated service integrations"
+     ],
+     "keyCapabilities": [
+      "Contract breaks are found in your pipeline rather than by a partner in production",
+      "API test maintenance stops being manual, because generation follows the spec",
+      "A named owner decides what a breaking change means, rather than the platform resolving it silently"
+     ]
+    },
+    {
+     "name": "HealthCheck",
+     "sub": "Production Health Monitoring",
+     "desc": "Stays on after the release, watching live system behaviour and surfacing incident trends before they become escalations. Because it reads from the same record as everything upstream, an incident traces back to the requirement that caused it.",
+     "coreFeatures": [
+      "Real-time production health monitoring with system status visibility",
+      "Proactive failure detection with automated alerting before customer impact",
+      "Incident trend analytics identifying recurring failure patterns rather than isolated events",
+      "Post-release quality governance across production environments"
+     ],
+     "keyCapabilities": [
+      "Failure detection shifts from customers to engineering, which protects both revenue and trust",
+      "Mean time to recovery falls, because anomaly detection arrives with incident context attached",
+      "A production symptom traces back to the requirement that caused it, rather than starting a new investigation"
+     ]
+    }
+   ],
+   "capabilities": [
+    {
+     "cap": "Intelligent Parallel Execution",
+     "delivers": "AutoRunner orchestrates massively parallel test execution across distributed infrastructure, reducing regression from hours to minutes without sacrificing coverage or stability."
+    },
+    {
+     "cap": "Flakiness Detection & Auto-Retry",
+     "delivers": "Smart retry logic and flakiness detection eliminate false failures, reclaiming the engineering time wasted investigating unreliable test results."
+    },
+    {
+     "cap": "Automated API Contract Validation",
+     "delivers": "SmartAPI generates API tests from OpenAPI specs and continuously validates contracts, detecting breaking changes in the pipeline before they reach production and cause integration failures."
+    },
+    {
+     "cap": "Early Integration Alerts",
+     "delivers": "Contract drift detection surfaces API breaking changes at the earliest possible stage, preventing the production incidents that trigger emergency rollbacks and customer impact."
+    },
+    {
+     "cap": "Real-Time Production Health Monitoring",
+     "delivers": "HealthCheck monitors production environment health in real time, detecting anomalies proactively before customers experience failures or revenue is at risk."
+    },
+    {
+     "cap": "Incident Trend Analytics",
+     "delivers": "HealthCheck identifies recurring failure patterns across production incidents, enabling root cause resolution rather than repeated firefighting."
+    }
+   ],
+   "impact": [
+    {
+     "value": "40-60%",
+     "label": "Faster Regression"
+    },
+    {
+     "value": "20-35%",
+     "label": "Shorter Release Cycles"
+    },
+    {
+     "value": "25-40%",
+     "label": "Less Incident Escalation"
+    }
+   ],
+   "lifecycleHeading": "Why a red run means something here",
+   "lifecycleIntro": "A failure is only useful if you know what it was proving. This scenario traces back through a test set a QA lead signed off, to a requirement a product owner approved. The agent surfaces the failure; an engineer decides whether it blocks. Nothing is promoted to regression because a machine was confident.",
+   "meaning": [
+    "Faster releases with lower operational risk",
+    "Predictable CI/CD throughput",
+    "Reduced production incident exposure",
+    "Stronger executive confidence in delivery"
+   ],
+   "builtFor": [
+    "CI/CD-heavy engineering organizations",
+    "API-first microservice architectures",
+    "High-availability enterprise platforms",
+    "Industries with strict uptime & risk requirements",
+    "Regression blocking sprint velocity",
+    "API changes breaking integrations in production",
+    "Production incidents discovered by customers first",
+    "Compliance requiring continuous quality evidence"
+   ],
+   "pullQuote": "Automation should accelerate delivery, not block it.",
+   "closing": {
+    "heading": "Stop Letting Automation Slow You Down.",
+    "body": "Talk to a RabbitQA specialist and see how Technical Agent integrates with your existing CI/CD pipeline, test frameworks, and production monitoring stack."
+   }
+  }
+ ],
+ "solutions": [
+  {
+   "id": "banking",
+   "order": 10,
+   "name": "Banking",
+   "tagline": "In banking there is no acceptable error rate. Money either moves correctly or it does not, and every transaction becomes a record someone may be asked to explain years later. That is why replacing a core system is rarely a coding problem. It is a matching problem: every interest calculation, every fee and every transfer has to give exactly the same result on the new platform as on the old one. Most teams still check that by hand, in spreadsheets, sprint after sprint. RabbitQA runs that matching autonomously, every scenario, every sprint, and keeps each result as a record you can explain years later.",
+   "metaTitle": "Core Banking QA and Audit Evidence | RabbitQA",
+   "metaDescription": "Parity validation for core migrations, thick-client and SOA coverage, real card transactions on physical POS. Evidence chain aligned to PSD2, PCI-DSS and BaFin.",
+   "features": [
+    {
+     "title": "Core and channel banking coverage",
+     "body": "End-to-end validation across core, internet, mobile and branch, including desktop and service-oriented architectures, with custom inspection for the interfaces standard automation cannot reach."
+    },
+    {
+     "title": "Parity you can prove",
+     "body": "Legacy and new platform execute the same scenario set against the same data. Divergence arrives as a report before cutover, not as an incident after it."
+    },
+    {
+     "title": "Regression at release speed",
+     "body": "Scenarios run in parallel across environments, with flaky failures separated out automatically, so the suite fits the window instead of setting it."
+    },
+    {
+     "title": "Evidence as a by product",
+     "body": "Every requirement links to its test cases, every run to its result, every approval to a named person. The audit chain is produced as you work, not assembled before a review."
+    },
+    {
+     "title": "Human approval",
+     "body": "Agents do the preparation. A product owner approves the requirement, a QA lead signs off the coverage, an engineer decides what a failure means. Nothing is promoted because a machine was confident."
+    },
+    {
+     "title": "Compliance coverage",
+     "body": "Every requirement links to its test cases and every execution links to its result, producing an unbroken evidence chain for PSD2, PCI-DSS, GDPR and KVKK obligations. Reports export on demand, with the approver recorded at every step."
+    }
+   ],
+   "useCases": [
+    {
+     "title": "Core migration parity",
+     "body": "Prove every interest calculation, fee rule and transfer scenario produces the same result on the new platform as the old one, before cutover rather than after."
+    },
+    {
+     "title": "Payment and statement integrity",
+     "body": "Keep EFT, standing order, card and statement flows correct and auditable across every release, including the thick-client screens browser tools cannot reach."
+    },
+    {
+     "title": "Channel consistency",
+     "body": "Validate that internet, mobile and branch enforce the same rule set, in the same run, instead of three teams proving three versions of the truth."
+    }
+   ],
+   "benefits": [
+    "No additional hardware or licence investment. Existing Selenium, Playwright and Cucumber assets keep running.",
+    "Audit evidence generated on demand, replacing 2-4 weeks of manual gathering before every review.",
+    "Internet, mobile and branch validated against the same rule set, in the same execution.",
+    "Weeks to  days on core banking implementations."
+   ],
+   "faqs": [
+    {
+     "question": "Can RabbitQA test thick-client and SOA core banking interfaces?",
+     "answer": "Yes. AutoRunner supports desktop and service-oriented architectures with custom inspection for interfaces that resist standard automation. This is the part of a core banking estate that browser-only tools cannot reach, and it is usually where manual regression accumulates year after year."
+    },
+    {
+     "question": "How do you validate parity during a core migration?",
+     "answer": "By parallel run. The legacy platform and the new one execute the same scenario set against the same data, and every divergence is reported before cutover. Nothing is switched over on the assumption that parity holds, and the differences arrive as a list rather than as an incident."
+    },
+    {
+     "question": "How does RabbitQA support audit evidence requirements?",
+     "answer": "Every requirement links to its generated test cases, every execution links to its result, and every approval is recorded against a named person with a timestamp. When a regulator asks whether a specific rule was tested on a specific release, the answer is one screen rather than two to four weeks of gathering."
+    },
+    {
+     "question": "Do we have to replace our existing Selenium suite?",
+     "answer": "No. RabbitQA orchestrates the frameworks you already run, including Selenium, Playwright, Appium, Cypress, Cucumber, Gauge and Robot Framework. Existing assets keep executing while RabbitQA adds requirement governance, generation, parallel orchestration and traceability on top of them."
+    },
+    {
+     "question": "Where does our data sit during testing?",
+     "answer": "Deployment options include SaaS, hybrid and full on-premise. On-premise deployments can run local models, so no data and no prompt leaves your infrastructure."
+    },
+    {
+     "question": "Does RabbitQA replace our QA team?",
+     "answer": "No. Agents do the preparation: reading specifications, generating cases, running suites, collecting evidence. A product owner still approves the requirement, a QA lead signs off the coverage and an engineer decides what a failure means. Teams typically redirect the recovered hours into exploratory testing and parity design."
+    }
+   ]
+  },
+  {
+   "id": "insurance",
+   "order": 20,
+   "name": "Insurance",
+   "tagline": "In insurance, the data is the product. A policy is a legal promise, priced from rules that have to be right the first time, because one wrong calculation does not affect one customer. It affects everyone on that product. And the data that would prove the rules still work is real customer data, which cannot leave the building. So testing runs on a subset, on someone's machine, against an extract that arrived three weeks ago. RabbitQA runs the full suite inside your perimeter, on GDPR-safe synthetic data, so proof no longer waits for an extract.",
+   "metaTitle": "Insurance QA: Policy, Claims and Quotation | RabbitQA",
+   "metaDescription": "One policy rule change touches every quote path. RabbitQA tests them together with synthetic data inside your perimeter, aligned to GDPR, Solvency II and BaFin.",
+   "features": [
+    {
+     "title": "Rule change blast radius",
+     "body": "One product rule is linked to every test case generated from it. When it changes, every affected path is flagged and regenerated, so regression scope is derived rather than guessed."
+    },
+    {
+     "title": "Data that stays inside",
+     "body": "Orchestration runs in the cloud while sensitive data remains on-premise, which is what GDPR, KVKK and supervisory expectations such as BaFin actually require."
+    },
+    {
+     "title": "Synthetic test data",
+     "body": "Test environments run on generated data rather than a masked copy of production, so nothing waits three weeks for a refresh and no policyholder record leaves its system."
+    },
+    {
+     "title": "Comparable release over release",
+     "body": "The same scenario set repeats each cycle, so quality becomes a trend you can defend to a supervisor rather than a one-off measurement."
+    }
+   ],
+   "useCases": [
+    {
+     "title": "Rule change validation",
+     "body": "One product rule touches quotation, endorsement, renewal and claims. Every affected path is flagged and regenerated instead of chased through a spreadsheet."
+    },
+    {
+     "title": "Claims and policy journeys",
+     "body": "Keep quote, bind, renewal and claims flows correct and reliable across releases, with the evidence attached to each one."
+    },
+    {
+     "title": "Testing inside the perimeter",
+     "body": "Run enterprise-scale validation while every scenario and result stays within the regulated boundary."
+    }
+   ],
+   "benefits": [
+    "Prove performance and resilience without breaching data residency or GDPR/KVKK obligations.",
+    "Rule-change regression: every affected path validated, not a sampled subset.",
+    "No policyholder data leaves your infrastructure at any point.",
+    "Comparable measurement release over release, from the same scenario set."
+   ],
+   "faqs": [
+    {
+     "question": "Does any policyholder data leave our infrastructure?",
+     "answer": "No. Orchestration runs in the cloud while sensitive data stays inside your own perimeter, and DataCrate generates synthetic test data so environments never need a masked copy of production. This is the deployment model supervisory authorities expect and most cloud-native testing platforms cannot offer."
+    },
+    {
+     "question": "How do you test a rule change across every affected quote path?",
+     "answer": "Rules are linked to the test cases generated from them. When a rule changes, every linked case across quotation, endorsement, renewal and claims is flagged and regenerated, so regression scope is derived from the change rather than estimated by whoever remembers the product best."
+    },
+    {
+     "question": "Can RabbitQA test our legacy policy administration system?",
+     "answer": "Yes. AutoRunner supports desktop and service-oriented architectures with custom inspection for interfaces that resist standard automation, which covers most policy administration estates that predate the web layer sitting on top of them."
+    },
+    {
+     "question": "Where does the test data come from?",
+     "answer": "DataCrate generates it. Synthetic, structurally valid data is provisioned on demand, so environments do not wait weeks for a masked production refresh and no real policyholder record is copied into a test system."
+    },
+    {
+     "question": "What evidence does a supervisor actually get?",
+     "answer": "An unbroken chain from the product rule, through the test cases generated from it, to the execution result, with the approver recorded at every step. Reports export on demand rather than being assembled over two to four weeks before a review."
+    },
+    {
+     "question": "Does RabbitQA replace our QA team?",
+     "answer": "No. Agents generate the coverage and run it. Your team still decides which rules carry the most exposure, what an SLA breach means for a claims journey, and whether a release is ready. Every one of those decisions is recorded against a name."
+    }
+   ]
+  },
+  {
+   "id": "fintech",
+   "order": 30,
+   "name": "Fintech",
+   "tagline": "Fintech competes on speed and is regulated like a bank. Both at once. You ship every week, but every release touches money, and money is where regulators, partners and processors all have a say. A payment provider changes something overnight without telling anyone, the rules are different in every market, and a settlement mismatch does not appear until Monday's reconciliation. RabbitQA tests every release and watches every integration continuously, so the mismatch shows up in your pipeline, not in Monday's reconciliation.",
+   "metaTitle": "Fintech QA: Payment and Open Banking APIs | RabbitQA",
+   "metaDescription": "Partner, processor and open banking APIs validated contract by contract, with PSD2 and PCI-DSS evidence produced as the tests run, not before the audit.",
+   "features": [
+    {
+     "title": "Contract drift caught in the pipeline",
+     "body": "Partner, processor and open banking APIs validated against their specification continuously, so a breaking change is a build failure rather than a partner email."
+    },
+    {
+     "title": "Payments end to end",
+     "body": "Issuing, acquiring and transaction flows validated across channels and devices, including real card transactions on physical POS hardware through Roboclick."
+    },
+    {
+     "title": "Inside the regulated perimeter",
+     "body": "Enterprise scale testing while sensitive financial data stays within your own boundary rather than an external cloud."
+    },
+    {
+     "title": "Evidence as a by product",
+     "body": "The audit chain is produced as the tests run, with each approval recorded against a name, instead of assembled at quarter end."
+    }
+   ],
+   "useCases": [
+    {
+     "title": "Issuing and acquiring",
+     "body": "Card issuance, authorization, settlement and dispute flows validated end to end, including on physical terminals."
+    },
+    {
+     "title": "Onboarding & KYC",
+     "body": "Identity, screening and risk flows tested as rules and geographies expand, with the evidence produced as you go."
+    },
+    {
+     "title": "Partner contract drift",
+     "body": "Processor and open banking APIs checked against their specification continuously, so a breaking change surfaces in your pipeline first."
+    }
+   ],
+   "benefits": [
+    "Catch payment and integration defects before they reach a processor or sponsor bank.",
+    "Compliance evidence available on demand, replacing 2-4 weeks of manual preparation.",
+    "Release cadence maintained as the partner count and estate grow.",
+    "Payment flows validated end to end, including physical terminals."
+   ],
+   "faqs": [
+    {
+     "question": "How do you catch a processor API contract change before production?",
+     "answer": "SmartAPI validates each API against its specification continuously as part of the pipeline. When a processor changes a contract, the mismatch appears as a pipeline failure rather than as a partner email on a Friday afternoon."
+    },
+    {
+     "question": "Can you test real card transactions on physical POS devices?",
+     "answer": "Yes. RoboClick performs actual card transactions on physical POS hardware. This covers the segment of a payment journey that browser and API automation cannot reach, which is where acceptance defects usually hide until a merchant reports them."
+    },
+    {
+     "question": "How is compliance evidence produced?",
+     "answer": "As a by-product of testing rather than as a separate exercise. Every requirement links to its test cases, every execution links to its result, and every approval carries a name and a timestamp. Evidence exports on demand instead of being reconstructed at quarter end."
+    },
+    {
+     "question": "Does sensitive financial data leave our perimeter?",
+     "answer": "Deployment options include on-premise, where no data and no prompt leaves your environment, and DataCrate generates synthetic data so test environments do not need production records."
+    },
+    {
+     "question": "Can RabbitQA keep up with weekly releases?",
+     "answer": "That is the design point. Coverage is generated from approved requirements and regenerated when they change, execution runs in parallel rather than sequentially, and the evidence chain is produced as the tests run. The compliance artefact does not become the thing that slows the release."
+    },
+    {
+     "question": "Does RabbitQA replace our QA team?",
+     "answer": "No. Agents do the contract validation, the execution and the evidence collection. Your team still decides which partner integrations carry the most risk, what a failed settlement scenario means, and whether a release ships. Nothing is promoted to regression without a person accepting it."
+    }
+   ]
+  },
+  {
+   "id": "ecommerce",
+   "order": 40,
+   "name": "Ecommerce",
+   "tagline": "In ecommerce, quality is measured in conversion. A checkout that works for most people is still losing money, because the failure sits on one path, in one segment, on one payment method, and nobody notices until the numbers come in. But checkout is never a single flow. There is guest and logged in, card and wallet and instalments, the extra security step and what happens when it fails. Every campaign adds another version. RabbitQA tests every version of checkout as it appears, so a failing path surfaces before the numbers come in.",
+   "metaTitle": "Ecommerce QA: Checkout and Personalisation | RabbitQA",
+   "metaDescription": "A checkout defect is measured in revenue per minute. Concentrate coverage where the money is and validate personalisation for every segment before you release.",
+   "features": [
+    {
+     "title": "Coverage weighted by revenue",
+     "body": "Real user-behaviour data decides what gets tested first, so the payment step gets the scenarios it deserves and the settings page gets proportionate coverage."
+    },
+    {
+     "title": "The revenue path as one journey",
+     "body": "Search, cart, checkout and payment validated as a continuous path rather than four suites that each pass on their own."
+    },
+    {
+     "title": "Personalization per segment",
+     "body": "Personalized journeys validated across customer segments, so the wrong discount or a missing offer never reaches a customer who was supposed to see something else."
+    },
+    {
+     "title": "Accessibility as a build gate",
+     "body": "WCAG 2.1 and 2.2 checks run on every build rather than as a pre-launch audit, which is what European Accessibility Act obligations require of a customer-facing storefront."
+    }
+   ],
+   "useCases": [
+    {
+     "title": "The revenue path",
+     "body": "Search, cart, checkout and payment validated as one continuous journey rather than four test suites that pass individually."
+    },
+    {
+     "title": "Campaign and coupon logic",
+     "body": "Every promotion, discount rule and personalization segment validated before launch, so the wrong offer never reaches a customer."
+    },
+    {
+     "title": "Coverage weighted by revenue",
+     "body": "Real behaviour data decides depth, so the flows that carry the money get the deepest coverage."
+    }
+   ],
+   "benefits": [
+    "Improve checkout success rate to near perfect levels during peak.",
+    "Coverage concentrated on revenue-critical flows instead of spread evenly.",
+    "Campaign and coupon logic validated before launch, not after the first complaint.",
+    "Accessibility validated on every build rather than three weeks before launch."
+   ],
+   "faqs": [
+    {
+     "question": "How do you decide which flows to test first?",
+     "answer": "Real user-behaviour data ranks the paths by revenue contribution, and coverage depth follows that ranking. The payment step gets the scenarios it deserves and the settings page gets proportionate coverage, rather than both receiving the same flat treatment."
+    },
+    {
+     "question": "Can you validate personalization across customer segments?",
+     "answer": "Yes. Personalized journeys are generated and executed per segment, so a discount rule that behaves correctly for one segment and incorrectly for another is caught before either customer sees it. The wrong offer never reaches the wrong person."
+    },
+    {
+     "question": "How do you test coupon and campaign logic before launch?",
+     "answer": "Campaign and promotion rules are validated as requirements before the code ships, then executed as scenarios across the checkout path. A coupon that conflicts with an existing discount rule surfaces at intake rather than at the first customer complaint."
+    },
+    {
+     "question": "Does RabbitQA cover European Accessibility Act obligations?",
+     "answer": "The Accessibility module runs WCAG 2.1 and 2.2 checks on every build rather than as a pre-launch audit, validated against European Accessibility Act requirements, with screen reader coverage across JAWS, NVDA and VoiceOver. Every failure comes back with a suggested fix."
+    },
+    {
+     "question": "Does it work with our existing Cypress or Playwright suite?",
+     "answer": "Yes. RabbitQA orchestrates Cypress, Playwright, Selenium, Appium, Cucumber, Gauge and Robot Framework, plus Postman collections. Your existing specs keep running unchanged while RabbitQA adds generation, parallel execution and traceability on top."
+    },
+    {
+     "question": "Does RabbitQA replace our QA team?",
+     "answer": "No. Agents generate and execute the coverage. Your team still decides what an acceptable checkout failure rate is, which segments matter most, and whether a campaign is ready. The recovered hours usually go back into exploratory testing on the paths that carry the revenue."
+    }
+   ]
+  },
+  {
+   "id": "aviation",
+   "order": 50,
+   "name": "Aviation",
+   "tagline": "Aviation does not close. Systems run through the night and across time zones, and a fault never stays where it started: a booking error becomes a queue at check-in, then a late departure, then a rebooking problem at the other end of the network. There is no maintenance window to test in, only a few hours between the last arrival and the first departure. Regression takes days by hand, so teams test what they can reach. RabbitQA runs that matching autonomously, every scenario, every sprint, and keeps each result as a record you can explain years later.",
+   "metaTitle": "Aviation QA: Regression in the Release Window | RabbitQA",
+   "metaDescription": "In aviation, software does not crash: it cancels flights. Parallel-run migration validation and daily regression across web, mobile web, iOS and Android.",
+   "features": [
+    {
+     "title": "Requirement to test at scale",
+     "body": "Thousands of pages of PSS and reservation specification become validated, testable scenarios in days rather than months, with contradictions flagged before a sprint commits to them."
+    },
+    {
+     "title": "Every passenger channel, one run",
+     "body": "Booking, check-in, manage-booking and profile flows executed in parallel across web, mobile web, iOS and Android, so the full suite fits inside the window you actually have."
+    },
+    {
+     "title": "Migration by parallel run",
+     "body": "Legacy and new platform run the same scenarios against the same data. Divergence is reported before cutover, with no planned downtime."
+    },
+    {
+     "title": "Failures you can act on",
+     "body": "Every failed scenario comes back named, with its steps and a video, and flaky ones are separated out before an engineer opens a ticket."
+    }
+   ],
+   "useCases": [
+    {
+     "title": "PSS and reservation cutover",
+     "body": "Run the legacy platform and the new one against the same scenario set, so divergence is a report before cutover, not an incident after it."
+    },
+    {
+     "title": "The four hour window",
+     "body": "Booking, check-in, manage-booking and profile flows across four channels, executed in parallel so the suite fits the window rather than defining it."
+    },
+    {
+     "title": "Pre-peak readiness",
+     "body": "Prove the booking funnel holds before the campaign opens, not while it is open."
+    }
+   ],
+   "benefits": [
+    "Regression window: days to  hours across every digital channel.",
+    "Migration divergences surfaced before cutover, with no planned downtime.",
+    "Specification analysis measured in days rather than months.",
+    "Every requirement traceable to its test result, exportable on demand."
+   ],
+   "faqs": [
+    {
+     "question": "Can a full regression suite fit into a four-hour release window?",
+     "answer": "Yes. AutoRunner executes scenarios in parallel across distributed infrastructure rather than sequentially, so suite duration scales with capacity instead of scenario count. Booking, check-in, manage-booking and profile flows run concurrently across web, mobile web, iOS and Android."
+    },
+    {
+     "question": "How do you validate a PSS migration without downtime?",
+     "answer": "By parallel run. The legacy platform and the new one execute the same scenario set against the same data, and every divergence is reported before cutover rather than discovered after it. There is no maintenance window because nothing is switched over untested."
+    },
+    {
+     "question": "How long does it take to turn a reservation specification into test scenarios?",
+     "answer": "Days rather than months. Analyzer reads the specification, flags contradictions and gaps, and CaseWriter generates the scenarios from what it validates. At SunExpress this produced 15,141 test scenarios from more than 2,500 pages."
+    },
+    {
+     "question": "Which passenger channels are covered?",
+     "answer": "Web, mobile web, iOS and Android, validated in the same execution against the same scenario set. MobileHub provides 150+ real handsets, modern and legacy, so a device that only your passengers still use is still covered."
+    },
+    {
+     "question": "Does passenger data leave our infrastructure?",
+     "answer": "Deployment options include on-premise, where no data and no prompt leaves your environment. Where load testing is in scope through Loadmance, a separate Virgosol service, load generation also runs inside your own infrastructure."
+    },
+    {
+     "question": "Does RabbitQA replace our QA team?",
+     "answer": "No. Agents do the preparation and the execution. Your team still decides what a divergence means before a cutover, what blocks a release at 02:00, and which flows carry the most passenger risk. That judgement is what the recovered hours go back into."
+    }
+   ]
+  },
+  {
+   "id": "retail",
+   "order": 60,
+   "name": "Retail",
+   "tagline": "In retail the calendar is in charge. A large share of the year's revenue arrives in a handful of days, and not one of those days can be moved. Meanwhile a single price change has to appear the same way at the till, on the shelf label, in the app and on every marketplace you sell through. The tests that prove it usually finish the night before the campaign goes live. RabbitQA verifies every channel in one autonomous run, done well before campaign day, not the night before.",
+   "metaTitle": "Retail QA: Store, Ecommerce and Marketplace | RabbitQA",
+   "metaDescription": "Validate pricing, labelling and promotion rules across every channel in one run, including real card transactions on physical POS hardware, before peak season.",
+   "features": [
+    {
+     "title": "One rule set, three channels",
+     "body": "Store operations, ecommerce and marketplace validated against the same rules in the same run, so you get one evidence set instead of three team reports to reconcile."
+    },
+    {
+     "title": "Real cards on real terminals",
+     "body": "RoboClick runs actual card transactions on physical POS hardware, covering the part of a retail checkout that no browser automation can reach."
+    },
+    {
+     "title": "Migration under live traffic",
+     "body": "Platform replacements and marketplace transitions validated while customers are still buying, with no planned maintenance window."
+    },
+    {
+     "title": "150+ real devices",
+     "body": "Modern and legacy iOS and Android handsets, included as a module rather than a separate vendor contract, with session recordings and issue logging into Jira and Slack."
+    }
+   ],
+   "useCases": [
+    {
+     "title": "Price, label and promotion",
+     "body": "Validate the same rule across store, ecommerce and marketplace in one run, so a campaign rule that conflicts with a loyalty rule surfaces before the till."
+    },
+    {
+     "title": "Real cards on real terminals",
+     "body": "Card acceptance validated on physical POS hardware, which is where acceptance defects usually hide."
+    },
+    {
+     "title": "Migration under live traffic",
+     "body": "Move platform or marketplace without a maintenance window that retail never gets to schedule."
+    }
+   ],
+   "benefits": [
+    "Campaign and pricing correctness proven  weeks ahead instead of the night before.",
+    "One evidence set across store, ecommerce and marketplace rather than three separate reports.",
+    "Card acceptance validated on physical terminals, not simulated.",
+    "Platform migration with no planned downtime."
+   ],
+   "faqs": [
+    {
+     "question": "Can you test physical POS terminals?",
+     "answer": "Yes. RoboClick runs actual card transactions on physical POS hardware, covering the part of a retail checkout that browser and API automation cannot reach. It runs alongside automated coverage of store systems, ecommerce and marketplace channels."
+    },
+    {
+     "question": "How do you validate the same pricing rule across store, web and marketplace?",
+     "answer": "The rule is validated once and the generated scenarios execute across all three channels in the same run, against the same rule set. You get one evidence set rather than three team reports that have to be reconciled before anyone can approve a campaign."
+    },
+    {
+     "question": "Can we migrate platform without a maintenance window?",
+     "answer": "Yes. Platform replacements and marketplace transitions are validated under live customer traffic, with the legacy and new systems executing the same scenarios against the same data. Divergence is reported before cutover, which removes the reason for a planned outage."
+    },
+    {
+     "question": "How many real devices are included?",
+     "answer": "MobileHub provides 150+ real iOS and Android handsets, modern and legacy hardware, across multiple OS versions. It is included as a module rather than a separate vendor contract, with session recordings and issue logging into Jira and Slack."
+    },
+    {
+     "question": "Does RabbitQA cover European Accessibility Act obligations?",
+     "answer": "The Accessibility module runs WCAG 2.1 and 2.2 checks inside the CI/CD pipeline and validates against European Accessibility Act requirements, including screen reader behaviour across JAWS, NVDA and VoiceOver. In Germany, BFSG obligations apply on top."
+    },
+    {
+     "question": "Does RabbitQA replace our QA team?",
+     "answer": "No. Agents handle the repetitive validation across channels and terminals. Your team still decides what a peak-readiness threshold is, which store formats carry the most exposure, and whether a campaign is safe to launch. Nothing goes live because a machine was confident."
+    }
+   ]
+  }
+ ],
+ "capabilities": {
+  "hero": {
+   "title": "Everything Quality Needs, Governed in One Place.",
+   "subtitle": "Covers the full quality lifecycle, on top of the tools and frameworks you already use.",
+   "promise": "",
+   "ctaLabel": "Contact us",
+   "ctaHref": "/contact"
+  },
+  "items": [
+   {
+    "id": "requirement-governance",
+    "title": "Requirement Governance",
+    "body": "Anyone can raise a request. Nobody can raise an untestable one.",
+    "points": [
+     "Most platforms in this category enter the lifecycle at test execution. By then the requirement has already been written, estimated and built. RabbitQA starts earlier. The agent reads whatever arrives, a Word document, a Confluence page, a sixty-page specification, and asks the questions a senior analyst would ask. What is missing. What contradicts what. What nobody can actually test.",
+     "The requirement that comes back is scored on clarity, completeness, acceptance criteria and technical detail, and a named person approves it before a sprint commits to anything. Reject it and the reason is on the record."
+    ]
+   },
+   {
+    "id": "ai-powered-test-generation",
+    "title": "AI-Powered Test Generation",
+    "body": "Most generators need a finished user story to work from. This one takes the specification, the Confluence page, the screenshot or the page URL, whatever the requirement actually lives in.",
+    "points": [
+     "Point it at the source and the cases come back written: happy paths, edge cases and negative scenarios, each with preconditions, steps and expected results. A test case a human can run and a runner can automate.",
+     "When the requirement changes, you regenerate against the new version and see the old case and the new one side by side before either wins. Comparing two versions of a specification also surfaces the regression coverage the change now needs. That is the part that decides whether your suite is still telling the truth a year from now."
+    ]
+   },
+   {
+    "id": "orchestrated-execution",
+    "title": "Orchestrated Execution",
+    "body": "Keep your Selenium suite. Keep your Playwright specs. Keep the pipeline your team already argued about once.",
+    "points": [
+     "RabbitQA orchestrates what you have rather than asking you to rewrite it. Selenium, Gauge, Cucumber, Robot Framework, JUnit, TestNG and xUnit projects run as they are.",
+     "Scenarios run against whichever environment you point them at, on runners inside your own network. Failures come back named and stepped, with a screenshot of the state that broke, so the first question in the morning is which step, not which test.",
+     "Web, desktop, mobile, API and RoboClick project types. Gauge, Cucumber, Robot, JUnit, TestNG, xUnit, Postman, Recorder and AI Agent frameworks, plus SAP, Oracle and Logo Tiger ."
+    ]
+   },
+   {
+    "id": "cross-platform-coverage",
+    "title": "Cross Platform Coverage",
+    "body": "Web, mobile, desktop, API and physical POS terminals. One workspace, one set of results.",
+    "points": [
+     "150+ real iOS and Android handsets come as a module rather than a second vendor contract, with session recordings and issue logging straight into Jira and Slack.",
+     "And where software-only testing stops, RoboClick keeps going: real card transactions on physical POS hardware. It is the part of a payment journey no browser automation can reach, and it is usually where acceptance defects hide."
+    ]
+   },
+   {
+    "id": "accessibility-testing",
+    "title": "Accessibility Testing and Regulatory Testing",
+    "body": "Accessibility is normally a report someone commissions three weeks before launch, followed by a backlog nobody schedules.",
+    "points": [
+     "Here it runs inside the project rather than beside it. WCAG 2.1 and 2.2 checks execute against your URLs, authenticated pages included, validated against European Accessibility Act requirements. Screen reader coverage across JAWS, NVDA and VoiceOver comes with the engagement, run by our QA team and reported back into the same project as the automated findings.",
+     "Every failure comes back with a suggested fix, not just a complaint: the WCAG reference, what to change, and how to verify it. The score is kept per project with its history, so you can see whether the number is moving."
+    ]
+   },
+   {
+    "id": "production-health-monitoring",
+    "title": "Production Health",
+    "body": "Most platforms hand you a green pipeline and stop there. The next thing you hear is a customer.",
+    "points": [
+     "HealthCheck stays on after the release. Scheduled checks run against your production endpoints, an incident opens the moment one stops responding, and recurring failures surface as a pattern rather than a series of separate surprises.",
+     "Email, Slack and webhook alerts fire on the same event. The first person to hear about an outage is on your team."
+    ]
+   },
+   {
+    "id": "Bring-your-own-model",
+    "title": "Bring Your Own Model",
+    "body": "Your model, your keys, your contract.",
+    "points": [
+     "Most platforms route every request through their own model, on their own bill. RabbitQA connects to OpenAI, Azure OpenAI, AWS Bedrock, Gemini or Anthropic, or runs local models entirely on-premise so no prompt leaves your infrastructure.",
+     "Your own model usage consumes none of your platform allowance. Your AI cost stays on a contract you negotiated, and you can change model without changing platform."
+    ]
+   },
+   {
+    "id": "migration-and-import",
+    "title": "Migration and Import",
+    "body": "The coverage you spent three years building does not become a sunk cost because you changed platform.",
+    "points": [
+     "Existing test cases and test sets import from Excel or TestRail. API collections import from Postman, OpenAPI, Swagger, HAR, WSDL or a raw cURL command. Day one starts from your own regression suite rather than an empty workspace.",
+     "No migration project. No professional services line item. Your coverage does not start over because your platform did."
+    ]
+   },
+   {
+    "id": "evidence-and-audit",
+    "title": "Evidence and Audit",
+    "body": "Every requirement links to its test cases. Every run links to its result. Every approval carries a name and a timestamp.",
+    "points": [
+     "That chain is not a reporting feature bolted on at the end. It is a by-product of how the platform works, which is why it still holds up when someone asks about a release from eight months ago.",
+     "When a regulator asks whether a specific rule was tested and who signed it off, the answer is one screen. Most teams answer that question with two to four weeks of manual gathering.",
+     "PCI-DSS, PSD2, GDPR, KVKK, EAA, BaFin."
+    ]
+   }
+  ]
+ },
+ "agentsHero": {
+  "titleA": "Specialized agents. One governed lifecycle.",
+  "titleB": "",
+  "subtitle": "Specialized agents take over the manual work. Your team keeps the final word, on the record.",
+  "promise": "",
+  "ctaLabel": "Contact us",
+  "ctaHref": "/contact"
+ },
+ "industriesHero": {
+  "titleA": "Quality standards",
+  "titleB": "written by your regulator",
+  "subtitle": "Six industries where a failed release is not an inconvenience but a filing. See how RabbitQA is set up for each of them.",
+  "promise": "Regulated. Audited. Shipped.",
+  "ctaLabel": "Talk to sales",
+  "ctaHref": "#request-demo"
+ }
+}

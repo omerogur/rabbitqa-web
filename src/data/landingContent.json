@@ -1,0 +1,1030 @@
+{
+ "accessibility": {
+  "name": "Accessibility",
+  "tagline": "Regulation-Ready Accessibility Auditing",
+  "shortDescription": "WCAG 2.2 accessibility testing",
+  "longDescription": "Delivers WCAG 2.2-based accessibility testing integrated directly into the CI/CD pipeline, ensuring digital products meet European Accessibility Act (EAA) requirements and serve all users.",
+  "heroDescription": "The Accessibility module delivers WCAG 2.2-based testing integrated directly into the CI/CD pipeline, ensuring digital products meet European Accessibility Act (EAA) requirements and serve all users, including those using assistive technologies.",
+  "features": [
+   {
+    "title": "WCAG Compliance",
+    "description": "Test web applications against WCAG 2.2 and European Accessibility Act requirements, with structured results your team can act on.",
+    "icon": "CheckSquare"
+   },
+   {
+    "title": "Batch Audits at Project Scale",
+    "description": "Group URLs into audit suites, run analyses asynchronously, and re-run a single audit or an entire batch after fixes ship.",
+    "icon": "Scale"
+   },
+   {
+    "title": "Screen Reader Testing",
+    "description": "Coverage across JAWS, NVDA and VoiceOver, run by our QA team and reported into the same project as the automated findings.",
+    "icon": "Shield"
+   },
+   {
+    "title": "More Than an Accessibility Score",
+    "description": "Each audit also records performance, best-practices, and SEO scores, so accessibility work lands in its wider quality context.",
+    "icon": "FileCheck"
+   }
+  ],
+  "benefits": [
+   "Built for the EAA era. Testing is aligned to WCAG 2.2 and European Accessibility Act requirements from the start  not a generic checker retrofitted after the audit letter arrives.",
+   "A trend line, not a snapshot. Point tools hand you a one-off report. RabbitQA stores every analysis as a versioned run, so scores, check counts, and progress stay visible audit after audit.",
+   "Findings arrive with fixes. Every failed check can generate an AI recommendation  the problem, a suggested fix, and a verification step  so developers start from guidance instead of a bare WCAG citation.",
+   "Automation plus real assistive technology. Screen reader coverage across JAWS, NVDA and VoiceOver comes with the engagement, run by our QA team and reported back into the same project as the automated findings."
+  ],
+  "useCases": [
+   "WCAG 2.2 conformance auditing",
+   "EAA regulatory validation",
+   "Screen reader compatibility",
+   "Continuous accessibility validation"
+  ],
+  "coreFeatures": [
+   {
+    "title": "",
+    "description": "WCAG 2.2 conformance testing across web and mobile applications"
+   },
+   {
+    "title": "",
+    "description": "EAA conformance validation for European regulatory requirements"
+   },
+   {
+    "title": "",
+    "description": "Screen reader compatibility testing for JAWS, NVDA and VoiceOver"
+   },
+   {
+    "title": "",
+    "description": "CI/CD integration for continuous accessibility validation"
+   }
+  ],
+  "keyCapabilities": [],
+  "faq": [
+   {
+    "question": "What is the RabbitQA Accessibility module?",
+    "answer": "It is a web accessibility testing module that audits applications against WCAG 2.2 and European Accessibility Act requirements. It combines Lighthouse-backed automated audits, versioned score tracking, and AI fix recommendations with screen reader testing delivered with the engagement."
+   },
+   {
+    "question": "Which standards does it cover?",
+    "answer": "Testing is aligned to WCAG 2.2 and the European Accessibility Act (EAA). Each audit also records performance, best-practices, and SEO scores alongside accessibility, with per-check counts of passed, failed, manual, and not-applicable results."
+   },
+   {
+    "question": "How is screen reader testing delivered?",
+    "answer": "Screen reader coverage across JAWS, NVDA and VoiceOver comes with the engagement, run by our QA team and reported back into the same project as the automated findings, so manual assistive-technology results and automated audit results live side by side."
+   },
+   {
+    "question": "Can it audit pages behind a login?",
+    "answer": "Yes. Configure basic form authentication login URL, field selectors, credentials, and wait time or use the advanced script mode, which passes through a security sanitizer before execution, to audit authenticated areas of your application."
+   },
+   {
+    "question": "What happens after an issue is found?",
+    "answer": "Each failed check can generate an AI recommendation describing the problem, a suggested fix, and a verification step. Your team reviews and applies the fix, then re-runs the audit, and the new result is stored as another versioned run, so the score trend shows the improvement."
+   },
+   {
+    "question": "How do I track progress over time?",
+    "answer": "Every analysis is saved as a versioned run with its scores and check counts. Suites average their audits and projects keep an overall score, while dashboards surface top-performing projects, projects needing attention, and recent activity."
+   }
+  ],
+  "agentGroup": "additional"
+ },
+ "analyzer": {
+  "name": "Analyzer",
+  "tagline": "AI-Powered Requirement Intelligence",
+  "shortDescription": "Requirement quality analysis",
+  "longDescription": "Applies AI-powered document analysis to every business requirement, scoring quality, detecting ambiguities, identifying gaps, and flagging contradictions before they enter the development backlog.",
+  "heroDescription": "Analyzer transforms requirement review from a manual, subjective activity into a governed, measurable process. AI scores every requirement for completeness, clarity, and testability, detecting ambiguities and contradictions before they enter the development backlog.",
+  "features": [
+   {
+    "title": "Quality Scoring",
+    "description": "AI-native requirement quality scoring across completeness, clarity, and testability dimensions.",
+    "icon": "BarChart3"
+   },
+   {
+    "title": "Risk Detection",
+    "description": "Automatic detection of ambiguities, contradictions, and missing acceptance criteria.",
+    "icon": "AlertTriangle"
+   },
+   {
+    "title": "Gap Identification",
+    "description": "Gap analysis between stated requirements and industry-standard completeness benchmarks.",
+    "icon": "Search"
+   },
+   {
+    "title": "Documentation Insight",
+    "description": "Configurable scoring thresholds matched to your team's definition of ready.",
+    "icon": "Lightbulb"
+   }
+  ],
+  "benefits": [
+   "Catch ambiguities where fixing them costs 10-100x less",
+   "Establish a measurable, auditable requirement quality standard",
+   "Flag contradictions before they enter the sprint",
+   "Apply consistent quality gates across every team and squad"
+  ],
+  "useCases": [
+   "Requirement quality gates",
+   "Regulatory compliance contexts",
+   "Definition-of-ready enforcement",
+   "Cross-team quality standardization"
+  ],
+  "coreFeatures": [
+   {
+    "title": "",
+    "description": "AI-native requirement quality scoring across completeness, clarity, and testability dimensions"
+   },
+   {
+    "title": "",
+    "description": "Automatic detection of ambiguities, contradictions, and missing acceptance criteria"
+   },
+   {
+    "title": "",
+    "description": "Gap analysis between stated requirements and industry-standard completeness benchmarks"
+   },
+   {
+    "title": "",
+    "description": "Configurable scoring thresholds matched to your team's definition of ready"
+   }
+  ],
+  "keyCapabilities": [
+   {
+    "title": "",
+    "description": "Catch ambiguities during analysis, where fixing them costs 10-100x less than catching them in production"
+   },
+   {
+    "title": "",
+    "description": "Establish a measurable, auditable requirement quality standard across every team and squad"
+   },
+   {
+    "title": "",
+    "description": "Research-validated: PSD2 open banking API test architecture (UYMS 2026) demonstrates Analyzer's capability in regulatory compliance contexts"
+   }
+  ],
+  "faq": null,
+  "agentGroup": "business"
+ },
+ "autorunner": {
+  "name": "AutoRunner",
+  "tagline": "Parallel Test Execution Engine",
+  "shortDescription": "Orchestrated test execution",
+  "longDescription": "Orchestrates massively parallel test execution with smart retry logic, flakiness detection, and seamless CI/CD integration, turning regression into a minutes-scale quality gate without sacrificing coverage.",
+  "heroDescription": "AutoRunner transforms regression from a 4-8 hour pipeline blocker into a minutes-scale quality gate. It orchestrates massively parallel execution across distributed infrastructure with smart retry logic and flakiness detection, all without sacrificing coverage.",
+  "features": [
+   {
+    "title": "CI/CD Integration",
+    "description": "Pipeline integration with GitHub Actions, Jenkins, GitLab CI, and Azure DevOps.",
+    "icon": "GitBranch"
+   },
+   {
+    "title": "Framework Compatibility",
+    "description": "Compatible with Selenium, Playwright, Appium, and existing automation frameworks.",
+    "icon": "Clock"
+   },
+   {
+    "title": "Parallel Execution",
+    "description": "Massively parallel test execution across distributed infrastructure.",
+    "icon": "Layers"
+   },
+   {
+    "title": "Smart Retries",
+    "description": "Smart retry logic and flakiness detection that eliminate false failures.",
+    "icon": "RefreshCw"
+   }
+  ],
+  "benefits": [
+   "Reduce regression execution from hours to minutes",
+   "Accelerate release cycles by 40-60%",
+   "Eliminate 30% of unreliable test failures",
+   "Stop wasting engineering time on false investigations"
+  ],
+  "useCases": [
+   "Continuous integration pipelines",
+   "Massively parallel regression",
+   "Pre-deployment quality gates",
+   "Flakiness detection and triage"
+  ],
+  "coreFeatures": [
+   {
+    "title": "",
+    "description": "Massively parallel test execution across distributed infrastructure"
+   },
+   {
+    "title": "",
+    "description": "Smart retry logic and flakiness detection eliminating false failures"
+   },
+   {
+    "title": "",
+    "description": "CI/CD pipeline integration with GitHub Actions, Jenkins, GitLab CI, and Azure DevOps"
+   },
+   {
+    "title": "",
+    "description": "Compatible with Selenium, Playwright, Appium, and existing automation frameworks"
+   }
+  ],
+  "keyCapabilities": [
+   {
+    "title": "",
+    "description": "Reduce regression execution from hours to minutes, accelerating release cycles by 40-60%"
+   },
+   {
+    "title": "",
+    "description": "Eliminate the 30% of unreliable test failures that waste engineering time on false investigations"
+   },
+   {
+    "title": "",
+    "description": "Research-backed: load test volumetrics framework (IEEE UBMK 2025) validates AutoRunner's performance modeling"
+   }
+  ],
+  "faq": null,
+  "agentGroup": "technical"
+ },
+ "browserhub": {
+  "name": "BrowserHub",
+  "tagline": "Cross-Browser Web Testing",
+  "shortDescription": "Cross-browser web testing",
+  "longDescription": "Provides scalable cross-browser and cross-platform testing infrastructure, ensuring consistent digital product quality across browsers, operating systems, and screen resolutions without managing browser infrastructure internally.",
+  "heroDescription": "BrowserHub provides scalable cross-browser and cross-platform testing infrastructure, ensuring consistent digital product quality across browsers, operating systems, and screen resolutions without managing browser infrastructure internally.",
+  "features": [
+   {
+    "title": "Cross-Browser Testing",
+    "description": "Cross-browser testing across Chrome, Firefox, Safari, Edge, and more.",
+    "icon": "Layers"
+   },
+   {
+    "title": "Cross-Platform Validation",
+    "description": "Cross-platform validation across Windows, macOS, and Linux environments.",
+    "icon": "Monitor"
+   },
+   {
+    "title": "Responsive Validation",
+    "description": "Responsive design validation across multiple screen resolutions and viewport sizes.",
+    "icon": "Smartphone"
+   },
+   {
+    "title": "Automation Suite Integration",
+    "description": "Integration with existing Selenium, Playwright, and Cypress automation suites.",
+    "icon": "Puzzle"
+   }
+  ],
+  "benefits": [
+   "One cloud for browser and mobile testing. Most teams stitch a browser grid to a separate device cloud and lose the thread between them. BrowserHub and MobileHub share one platform, one project context, and one reporting surface.",
+   "Evidence beyond screenshots. Built-in HAR network recording captures the traffic behind a failure, so debugging starts from data instead of reproduction attempts.",
+   "A matrix that maintains itself. Capability-based provisioning and version-retention policies keep browsers current  there is no lab to patch and no grid to babysit.",
+   "Standards, not lock-in. Automated sessions run over standard WebDriver on Selenium Grid-based infrastructure, so there is no proprietary runner to adopt."
+  ],
+  "useCases": [
+   "Cross-browser web testing",
+   "Cross-platform validation",
+   "Responsive design validation",
+   "Automation suite integration"
+  ],
+  "coreFeatures": [
+   {
+    "title": "",
+    "description": "Cross-browser testing across Chrome, Firefox, Safari, Edge and more"
+   },
+   {
+    "title": "",
+    "description": "Cross-platform validation across Windows, macOS and Linux environments"
+   },
+   {
+    "title": "",
+    "description": "Responsive design validation across multiple screen resolutions and viewport sizes"
+   },
+   {
+    "title": "",
+    "description": "Integration with existing Selenium, Playwright and Cypress automation suites"
+   }
+  ],
+  "keyCapabilities": [],
+  "faq": [
+   {
+    "question": "What is BrowserHub?",
+    "answer": "BrowserHub is RabbitQA's cloud browser testing module. It provides a managed browser inventory with capability-based provisioning for live, interactive sessions and automated runs plus HAR network recording, files, reports, and settings all scoped to your RabbitQA project and built on the same cloud as MobileHub's device fleet."
+   },
+   {
+    "question": "How is BrowserHub different from MobileHub?",
+    "answer": "MobileHub provides mobile device testing on real devices and emulators; BrowserHub provides browser testing on the same cloud. They share session, file, report, and API-key foundations, so evidence from both lands in the same RabbitQA project."
+   },
+   {
+    "question": "Can I run automated browser tests?",
+    "answer": "Yes. BrowserHub provisions automated sessions over standard WebDriver on Selenium Grid-based infrastructure. Sessions are created, polled, and terminated through the platform, and automation clients authenticate with scoped API keys."
+   },
+   {
+    "question": "Does BrowserHub capture network traffic?",
+    "answer": "Yes. Sessions support HAR network recording, so you can inspect the requests, responses, and third-party calls behind a failure instead of reconstructing them."
+   },
+   {
+    "question": "Which browsers and versions are available?",
+    "answer": "The inventory is managed through capability-based provisioning with version-retention policies; contact us for the current matrix."
+   }
+  ],
+  "agentGroup": "additional"
+ },
+ "casewriter": {
+  "name": "CaseWriter",
+  "tagline": "AI-Powered Test Case Generation",
+  "shortDescription": "AI test case generation",
+  "longDescription": "AI-generates comprehensive test cases directly from requirements and automatically updates them when specifications change, eliminating the days per feature spent on manual test case creation.",
+  "heroDescription": "CaseWriter generates structured, comprehensive test cases directly from requirements, user stories, and acceptance criteria. Test cases auto-update when requirements change, so coverage never falls behind the pace of development.",
+  "features": [
+   {
+    "title": "Rapid Test Creation",
+    "description": "AI test case generation from business requirements, user stories, and acceptance criteria.",
+    "icon": "Sparkles"
+   },
+   {
+    "title": "Coverage Expansion",
+    "description": "Coverage analysis identifying gaps between defined requirements and existing test scenarios.",
+    "icon": "Maximize"
+   },
+   {
+    "title": "Reduced Manual Effort",
+    "description": "Create test scenarios by uploading a website link, Figma file, or document, or generate a dedicated case for a specific bug.",
+    "icon": "Zap"
+   },
+   {
+    "title": "Auto Update Sync",
+    "description": "Test cases automatically update when requirements change, with no manual maintenance required.",
+    "icon": "RefreshCw"
+   }
+  ],
+  "benefits": [
+   "Generate test cases in minutes instead of days",
+   "Achieve a 35-50% QA productivity improvement",
+   "Scale test coverage with development velocity",
+   "Eliminate stale test scenarios as requirements evolve"
+  ],
+  "useCases": [
+   "Test case generation from requirements",
+   "Coverage gap analysis",
+   "Bug-specific test scenarios",
+   "Test creation from links, Figma, or documents"
+  ],
+  "coreFeatures": [
+   {
+    "title": "",
+    "description": "AI test case generation from business requirements, user stories, and acceptance criteria"
+   },
+   {
+    "title": "",
+    "description": "Automatic test case updates when requirements change, no manual maintenance required"
+   },
+   {
+    "title": "",
+    "description": "Coverage analysis identifying gaps between defined requirements and existing test scenarios"
+   },
+   {
+    "title": "",
+    "description": "Generate a dedicated test case for a specific bug"
+   },
+   {
+    "title": "",
+    "description": "Create test scenarios by uploading a website link, Figma file, or document"
+   },
+   {
+    "title": "",
+    "description": "Direct integration with your own agent setup, when available"
+   }
+  ],
+  "keyCapabilities": [
+   {
+    "title": "",
+    "description": "Generate test cases in minutes instead of days, 35-50% QA productivity improvement"
+   },
+   {
+    "title": "",
+    "description": "Ensure test coverage scales with development velocity without proportional headcount growth"
+   },
+   {
+    "title": "",
+    "description": "Maintain test suite accuracy as requirements evolve, eliminate stale test scenarios that erode release confidence"
+   }
+  ],
+  "faq": null,
+  "agentGroup": "planning"
+ },
+ "datacrate": {
+  "name": "DataCrate",
+  "tagline": "Stable Test Data Layer",
+  "shortDescription": "Synthetic test data",
+  "longDescription": "Generates GDPR-compliant synthetic test data on demand, eliminating test data dependencies and environment blockers that delay execution, without exposing real customer data to test environments.",
+  "heroDescription": "DataCrate generates GDPR-compliant synthetic test data on demand, eliminating the test data dependencies and environment blockers that delay execution, without ever exposing real customer data to test environments.",
+  "features": [
+   {
+    "title": "Template Management",
+    "description": "Use industry-specific ready-made templates or create your own custom templates.",
+    "icon": "FolderOpen"
+   },
+   {
+    "title": "On-Demand Generation",
+    "description": "On-demand data generation eliminating environment availability dependencies.",
+    "icon": "Sparkles"
+   },
+   {
+    "title": "GDPR-Compliant Data",
+    "description": "GDPR-compliant data creation eliminating regulatory exposure from production data use.",
+    "icon": "Shield"
+   },
+   {
+    "title": "Domain Templates",
+    "description": "Domain-specific data templates for banking, healthcare, retail, and telecom scenarios.",
+    "icon": "Link"
+   }
+  ],
+  "benefits": [
+   "Eliminate test environment blockers",
+   "Remove GDPR risk from test data management",
+   "Test regardless of environment availability",
+   "Keep real customer data out of test environments"
+  ],
+  "useCases": [
+   "On-demand synthetic data",
+   "GDPR-compliant test data",
+   "Domain-specific data scenarios",
+   "Environment blocker removal"
+  ],
+  "coreFeatures": [
+   {
+    "title": "",
+    "description": "GDPR-compliant data creation eliminating regulatory exposure from production data use in testing"
+   },
+   {
+    "title": "",
+    "description": "Domain-specific data templates for banking, healthcare, retail, and telecom scenarios"
+   },
+   {
+    "title": "",
+    "description": "On-demand data generation eliminating environment availability dependencies"
+   },
+   {
+    "title": "Template Management",
+    "description": "use industry-specific ready-made templates or create your own custom templates"
+   }
+  ],
+  "keyCapabilities": [
+   {
+    "title": "",
+    "description": "Eliminate test environment blockers testing proceeds regardless of environment availability"
+   },
+   {
+    "title": "",
+    "description": "Remove GDPR risk from test data management no real customer data ever enters test environments"
+   },
+   {
+    "title": "",
+    "description": "GAN-LLM synthetic generation is months of ML engineering not a feature any team can replicate in a weekend"
+   }
+  ],
+  "faq": null,
+  "agentGroup": "planning"
+ },
+ "healthcheck": {
+  "name": "HealthCheck",
+  "tagline": "Production Health Monitoring",
+  "shortDescription": "Production health monitoring",
+  "longDescription": "Extends quality governance beyond release into production, monitoring environment health in real time, delivering incident trend analytics, and detecting anomalies before customers experience failures.",
+  "heroDescription": "HealthCheck monitors production environment health in real time, delivers incident trend analytics, and detects anomalies proactively, before customers experience failures and before revenue or reputation is at risk.",
+  "features": [
+   {
+    "title": "Health Monitoring",
+    "description": "Real-time production environment health monitoring with system status visibility.",
+    "icon": "Activity"
+   },
+   {
+    "title": "Proactive Alerts",
+    "description": "Proactive failure detection with automated alerting before customer impact.",
+    "icon": "Bell"
+   },
+   {
+    "title": "Incident Analytics",
+    "description": "Incident trend analytics identifying recurring failure patterns for root cause resolution.",
+    "icon": "Layout"
+   },
+   {
+    "title": "Post-Release Governance",
+    "description": "Post-release quality governance ensuring deployment stability across production environments.",
+    "icon": "AlertTriangle"
+   }
+  ],
+  "benefits": [
+   "Shift failure detection from customers to engineering",
+   "Reduce Mean Time to Recovery with proactive detection",
+   "Protect revenue and brand trust",
+   "Extend quality governance beyond release into production"
+  ],
+  "useCases": [
+   "Production health monitoring",
+   "Proactive anomaly detection",
+   "Incident trend analysis",
+   "Post-release stability governance"
+  ],
+  "coreFeatures": [
+   {
+    "title": "",
+    "description": "Real-time production environment health monitoring with system status visibility"
+   },
+   {
+    "title": "",
+    "description": "Proactive failure detection with automated alerting before customer impact"
+   },
+   {
+    "title": "",
+    "description": "Incident trend analytics identifying recurring failure patterns for root cause resolution"
+   },
+   {
+    "title": "",
+    "description": "Post-release quality governance ensuring deployment stability across production environments"
+   }
+  ],
+  "keyCapabilities": [
+   {
+    "title": "",
+    "description": "Shift production failure detection from customers to engineering, protecting revenue and brand trust"
+   },
+   {
+    "title": "",
+    "description": "Reduce Mean Time to Recovery (MTTR) with proactive anomaly detection and incident trend context"
+   },
+   {
+    "title": "",
+    "description": "Extend the quality governance mandate beyond release, making RabbitQA the only platform that governs the full lifecycle from demand intake to production stability"
+   }
+  ],
+  "faq": null,
+  "agentGroup": "technical"
+ },
+ "mobilehub": {
+  "name": "MobileHub",
+  "tagline": "Mobile Device Cloud",
+  "shortDescription": "Real device cloud",
+  "longDescription": "Provides access to 150+ real iOS and Android devices for remote testing of web applications, native apps, and hybrid experiences, without building or maintaining in-house device infrastructure.",
+  "heroDescription": "MobileHub provides access to 150+ real iOS and Android devices for remote testing of web applications, native apps, and hybrid experiences, without building or maintaining in-house device infrastructure.",
+  "features": [
+   {
+    "title": "Real Devices",
+    "description": "150+ real iOS and Android devices, modern and legacy hardware across multiple OS versions.",
+    "icon": "MonitorSmartphone"
+   },
+   {
+    "title": "Device Reservations",
+    "description": "Hold a device for a chosen date, time slot, and duration  15 minutes to 4 hours  with a stated purpose. Edit or cancel, with full reservation history.",
+    "icon": "Clock"
+   },
+   {
+    "title": "Issue Logging & Tracking",
+    "description": "Create an issue from a session screenshot, associate it with a TestPilot plan or test run, and manage it on the native board with Jira and Azure DevOps boards when configured.",
+    "icon": "Bug"
+   },
+   {
+    "title": "GPS Location Simulation",
+    "description": "Test region- and location-dependent scenarios by picking a point on the map, entering coordinates, or using preset cities. Simulated locations clear automatically when the session ends.",
+    "icon": "Compass"
+   },
+   {
+    "title": "Session Evidence that Survives The Session",
+    "description": "Screenshots, video recordings, streamed logs with level filters, rich-text notes with frame capture, file push/pull, and device metrics retained in the completed-session record.",
+    "icon": "Video"
+   },
+   {
+    "title": "Reports and Governance",
+    "description": "Device usage, reservation, and session reports with PDF export. Storage, concurrency, duration, and reservation quotas keep consumption visible against plan limits.",
+    "icon": "BarChart3"
+   }
+  ],
+  "benefits": [
+   "Evidence lives with your test plans. In standalone device clouds, a session ends and its story scatters across screenshot folders and tracker tickets. In MobileHub, sessions, screenshots, issues, and reports stay attached to the same RabbitQA project as the TestPilot plans they belong to.",
+   "No lab to build, no lab to babysit. A shared fleet of real devices and emulators replaces procurement, cabling, and OS-update chores. Your team picks an available device and starts testing from the browser.",
+   "Manual and automated testing share one home. The same fleet serves interactive live sessions and Appium-based automation  with API keys, builds, and reports managed in one place instead of two toolchains.",
+   "Governance from day one. Permission-scoped API keys, storage and concurrency quotas, and usage reports keep device consumption visible and under control."
+  ],
+  "useCases": [
+   "Remote testing on real devices",
+   "Native and hybrid app testing",
+   "Device reservations and automation builds",
+   "Location-based scenario testing"
+  ],
+  "coreFeatures": [
+   {
+    "title": "",
+    "description": "Over 150 real iOS and Android devices, current and legacy hardware, multiple OS versions"
+   },
+   {
+    "title": "Reports and Analytics",
+    "description": "detailed reporting on device usage, reservations and tests"
+   },
+   {
+    "title": "MobileHub Issues",
+    "description": "bugs captured during manual device testing, filterable by platform, device type and model"
+   },
+   {
+    "title": "Device Reservations",
+    "description": "schedule and manage your device reservations"
+   },
+   {
+    "title": "Automation Builds",
+    "description": "grouped CI/CD and automation runs across devices"
+   },
+   {
+    "title": "Test Failure Logging and Tracking",
+    "description": "report bugs with screenshots and session recordings, with Jira and Slack integration"
+   },
+   {
+    "title": "Location-Based Testing",
+    "description": "test different region, time zone and location scenarios by GPS or IP"
+   },
+   {
+    "title": "Bring Your Own Device",
+    "description": "license the software to run on your own devices"
+   }
+  ],
+  "keyCapabilities": [],
+  "faq": [
+   {
+    "question": "What is MobileHub?",
+    "answer": "MobileHub is RabbitQA's mobile device testing module. It provides browser-based access to a shared fleet of real Android and iOS devices and emulators for live manual testing and Appium automation, with reservations, evidence capture, issue tracking, and usage reporting scoped to your project."
+   },
+   {
+    "question": "Does MobileHub include real devices or emulators?",
+    "answer": "Both. The shared fleet combines real Android and iOS hardware with emulators and simulators across multiple OS versions. You can filter by real or emulator type before starting a session, and the dashboard's fleet breakdown shows the mix at a glance."
+   },
+   {
+    "question": "How does automation work in MobileHub?",
+    "answer": "MobileHub supports Appium-based automation UiAutomator2 for Android and XCUITest for iOS. A built-in Config Generator produces capabilities and code samples in Java, Python, Node.js, and cURL. Automation clients authenticate with scoped API keys or the MobileHub CLI, and submitted runs group into builds and sessions."
+   },
+   {
+    "question": "Can I test location-based scenarios?",
+    "answer": "Yes. Location Simulation sets the device's GPS position from a map click, exact coordinates, or preset cities such as London, Berlin, and New York. The simulated location clears automatically when the session ends, so devices return to a clean state."
+   },
+   {
+    "question": "How do bugs get tracked?",
+    "answer": "You can raise an issue directly from a session screenshot or link the session to an existing issue. Issues associate with TestPilot plans and test runs, carry their evidence as attachments, and are managed on RabbitQA's native board or on Jira and Azure DevOps boards when those integrations are configured."
+   },
+   {
+    "question": "Can I reserve a device for later?",
+    "answer": "Yes. Reserve any available device for a specific date, time slot, and duration from 15 minutes to 4 hours, with a stated purpose. Reservations can be edited or cancelled, and history is retained."
+   },
+   {
+    "question": "Does MobileHub test websites too?",
+    "answer": "MobileHub focuses on mobile devices. Browser testing is handled by BrowserHub, its sibling module on the same device cloud, which provides browser inventory, live and automated browser sessions, and HAR network recording."
+   }
+  ],
+  "agentGroup": "additional"
+ },
+ "reporter": {
+  "name": "Reporter",
+  "tagline": "Executive Dashboards & Compliance Reports",
+  "shortDescription": "Advanced reporting & analytics",
+  "longDescription": "Delivers advanced test execution analytics and customizable reporting across the full test lifecycle, giving QA leaders, product managers, and executive stakeholders the visibility to make informed release decisions.",
+  "heroDescription": "Reporter delivers advanced test execution analytics and customizable reporting across the full test lifecycle, giving QA leaders, product managers, and executive stakeholders the visibility they need to make informed release decisions.",
+  "features": [
+   {
+    "title": "Executive Insights",
+    "description": "Customizable executive and operational dashboards for test execution metrics.",
+    "icon": "LayoutDashboard"
+   },
+   {
+    "title": "Trend Analysis",
+    "description": "Trend analysis across release cycles, defect escape rates, and coverage progression.",
+    "icon": "FileCheck"
+   },
+   {
+    "title": "Automated Distribution",
+    "description": "Automated report distribution to stakeholders at configurable intervals.",
+    "icon": "ClipboardCheck"
+   },
+   {
+    "title": "Unified Intelligence",
+    "description": "Integration with TestPilot for unified quality intelligence across execution and governance.",
+    "icon": "TrendingUp"
+   }
+  ],
+  "benefits": [
+   "Give stakeholders the visibility to make release decisions",
+   "Track trends across release cycles and coverage",
+   "Distribute reports automatically at set intervals",
+   "Unify quality intelligence across the test lifecycle"
+  ],
+  "useCases": [
+   "Executive and operational dashboards",
+   "Release cycle trend analysis",
+   "Automated stakeholder reporting",
+   "Unified quality intelligence"
+  ],
+  "coreFeatures": [
+   {
+    "title": "",
+    "description": "Customizable executive and operational dashboards for test execution metrics"
+   },
+   {
+    "title": "",
+    "description": "Trend analysis across release cycles, defect escape rates, and coverage progression"
+   },
+   {
+    "title": "",
+    "description": "Automated report distribution to stakeholders at configurable intervals"
+   },
+   {
+    "title": "",
+    "description": "Integration with TestPilot for unified quality intelligence across execution and governance"
+   }
+  ],
+  "keyCapabilities": [],
+  "faq": null,
+  "agentGroup": "additional"
+ },
+ "smartapi": {
+  "name": "SmartAPI",
+  "tagline": "Integration Risk Control",
+  "shortDescription": "API contract validation",
+  "longDescription": "Automates API test generation directly from OpenAPI specifications and provides continuous contract validation, detecting breaking changes in the pipeline before they reach production.",
+  "heroDescription": "SmartAPI automates API test generation from OpenAPI specifications and continuously validates contracts, detecting breaking changes in the pipeline before they reach production and cause integration failures or compliance violations.",
+  "features": [
+   {
+    "title": "OpenAPI Import",
+    "description": "Automatic API test generation from OpenAPI/Swagger specifications.",
+    "icon": "FileJson"
+   },
+   {
+    "title": "Contract Drift Detection",
+    "description": "Continuous API contract validation detecting breaking changes in CI/CD.",
+    "icon": "Puzzle"
+   },
+   {
+    "title": "Early Integration Alerts",
+    "description": "Early breaking-change detection preventing integration failures in production.",
+    "icon": "CheckCircle"
+   },
+   {
+    "title": "Contract Testing",
+    "description": "Regulatory compliance validation for PSD2, banking APIs, and regulated service integrations.",
+    "icon": "FileCheck"
+   }
+  ],
+  "benefits": [
+   "Prevent API contract breaks that cause outages",
+   "Eliminate manual API test maintenance",
+   "Detect breaking changes before production",
+   "Validate compliance for regulated integrations"
+  ],
+  "useCases": [
+   "Spec-driven API test generation",
+   "Continuous contract validation",
+   "Breaking-change prevention",
+   "Regulated API compliance"
+  ],
+  "coreFeatures": [
+   {
+    "title": "",
+    "description": "Automatic API test generation from OpenAPI/Swagger specifications"
+   },
+   {
+    "title": "",
+    "description": "Continuous API contract validation detecting breaking changes in CI/CD"
+   },
+   {
+    "title": "",
+    "description": "Early breaking-change detection preventing integration failures in production"
+   }
+  ],
+  "keyCapabilities": [
+   {
+    "title": "",
+    "description": "Prevent the API contract breaks that cause production outages"
+   },
+   {
+    "title": "",
+    "description": "Eliminate manual API test maintenance through continuous spec-driven generation"
+   },
+   {
+    "title": "",
+    "description": "Regulatory compliance validation for PSD2, banking APIs, and regulated service integrations"
+   }
+  ],
+  "faq": null,
+  "agentGroup": "technical"
+ },
+ "smartpbi": {
+  "name": "SmartPBI",
+  "tagline": "Testable Backlog Generation",
+  "shortDescription": "AI-powered PBI generation",
+  "longDescription": "Transforms validated, analyzed requirements into ready-to-build product backlog items with auto-generated acceptance criteria, testability built in from day one, and traceability to the original business demand.",
+  "heroDescription": "SmartPBI turns validated requirements into ready-to-build backlog items with AI-generated acceptance criteria and testability by design. Bi-directional traceability links every item to its originating business demand before development begins.",
+  "features": [
+   {
+    "title": "Jira Integration",
+    "description": "Integration with Jira and standard ALM platforms for seamless workflow adoption.",
+    "icon": "Link"
+   },
+   {
+    "title": "Testable Backlog",
+    "description": "AI-generated acceptance criteria with testability by design.",
+    "icon": "CheckCircle"
+   },
+   {
+    "title": "Full Traceability",
+    "description": "Bi-directional traceability linking every backlog item to its originating business demand.",
+    "icon": "ListTodo"
+   },
+   {
+    "title": "Change Adaptation",
+    "description": "Automatic PBI generation and regeneration from validated business requirements.",
+    "icon": "RefreshCw"
+   }
+  ],
+  "benefits": [
+   "Close the gap between business intent and execution",
+   "Ensure every backlog item is testable before the sprint",
+   "Prevent rework at the most expensive stage",
+   "Save 2-4 hours per release on backlog preparation"
+  ],
+  "useCases": [
+   "Testable backlog generation",
+   "Sprint planning",
+   "Acceptance criteria automation",
+   "Demand-to-backlog traceability"
+  ],
+  "coreFeatures": [
+   {
+    "title": "",
+    "description": "Automatic PBI generation from validated business requirements"
+   },
+   {
+    "title": "",
+    "description": "AI-generated acceptance criteria with testability by design"
+   },
+   {
+    "title": "",
+    "description": "Bi-directional traceability linking every backlog item to its originating business demand"
+   },
+   {
+    "title": "",
+    "description": "Integration with Jira and standard ALM platforms for seamless workflow adoption"
+   }
+  ],
+  "keyCapabilities": [
+   {
+    "title": "",
+    "description": "Eliminate the knowledge gap between business intent and development execution"
+   },
+   {
+    "title": "",
+    "description": "Ensure every backlog item is testable before it enters the sprint, preventing rework at the most expensive stage"
+   },
+   {
+    "title": "",
+    "description": "Save 2-4 hours per release on requirement analysis and backlog preparation"
+   }
+  ],
+  "faq": null,
+  "agentGroup": "business"
+ },
+ "smartrequest": {
+  "name": "SmartRequest",
+  "tagline": "Structured Demand Intake",
+  "shortDescription": "Structured demand intake",
+  "longDescription": "The AI-native entry point for all business and product demands. Enforces structured intake by validating business requests for completeness before they enter the development pipeline, eliminating multi-channel demand chaos.",
+  "heroDescription": "SmartRequest enforces structured intake by validating business requests for completeness before they enter the development pipeline, eliminating the unstructured, multi-channel demand chaos that generates rework downstream.",
+  "features": [
+   {
+    "title": "Multi-Channel Aggregation",
+    "description": "Multi-channel request aggregation from email, Confluence, Slack, and Jira.",
+    "icon": "UserCheck"
+   },
+   {
+    "title": "Completeness Validation",
+    "description": "Structured demand intake with AI-native completeness validation.",
+    "icon": "Brain"
+   },
+   {
+    "title": "Reduced Ambiguity",
+    "description": "Automatic flagging of incomplete or ambiguous submissions before acceptance.",
+    "icon": "ListTodo"
+   },
+   {
+    "title": "Configurable Templates",
+    "description": "Configurable intake templates matched to your organization's workflow.",
+    "icon": "Zap"
+   }
+  ],
+  "benefits": [
+   "Enforce quality gates from submission",
+   "Eliminate the 25-40% of sprint capacity lost to rework",
+   "Maintain a single, auditable record of every demand",
+   "Stop unstructured requirement intake at the source"
+  ],
+  "useCases": [
+   "Structured demand intake",
+   "Multi-channel request aggregation",
+   "Completeness validation gates",
+   "Auditable demand records"
+  ],
+  "coreFeatures": [
+   {
+    "title": "",
+    "description": "Multi-channel aggregation from email, Confluence, Slack and Jira, into one structured request"
+   },
+   {
+    "title": "",
+    "description": "Completeness validation at the point of submission, before anything reaches the backlog"
+   },
+   {
+    "title": "",
+    "description": "Automatic flagging of incomplete or ambiguous submissions, with the reason attached"
+   },
+   {
+    "title": "",
+    "description": "Intake templates configured to your own workflow, not a fixed schema"
+   }
+  ],
+  "keyCapabilities": [
+   {
+    "title": "",
+    "description": "Clarification and rework stop consuming sprint capacity that was budgeted for delivery"
+   },
+   {
+    "title": "",
+    "description": "Every business demand carries an auditable record of its validation status and who cleared it"
+   },
+   {
+    "title": "",
+    "description": "The intake conversation happens once, at submission, rather than three times during refinement"
+   }
+  ],
+  "faq": null,
+  "agentGroup": "business"
+ },
+ "testpilot": {
+  "name": "TestPilot",
+  "tagline": "Test Execution Governance Command Center",
+  "shortDescription": "Test execution governance",
+  "longDescription": "The central command center for test execution governance, providing real-time visibility into coverage gaps, release readiness, and compliance status, with audit-proof reports generated on demand.",
+  "heroDescription": "TestPilot provides real-time visibility into coverage gaps, release readiness, and compliance status, and generates audit-proof reports on demand, replacing weeks of manual evidence gathering with instant, traceable documentation.",
+  "features": [
+   {
+    "title": "Centralized Visibility",
+    "description": "Real-time test execution dashboard with coverage, pass rates, and release readiness scoring.",
+    "icon": "LayoutDashboard"
+   },
+   {
+    "title": "Release Readiness",
+    "description": "Configurable release gates enforcing quality thresholds before deployment approval.",
+    "icon": "CheckCircle"
+   },
+   {
+    "title": "Execution Governance",
+    "description": "Automated audit evidence collection with full requirement-to-test-to-result traceability.",
+    "icon": "Shield"
+   },
+   {
+    "title": "Risk Transparency",
+    "description": "Cross-team visibility into quality status across all squads and release branches.",
+    "icon": "Eye"
+   }
+  ],
+  "benefits": [
+   "Eliminate release decisions based on incomplete data",
+   "Replace 2-4 weeks of manual audit preparation",
+   "Give every stakeholder a single source of quality truth",
+   "Generate audit-ready evidence on demand"
+  ],
+  "useCases": [
+   "Test execution governance",
+   "On-demand compliance reporting",
+   "Release readiness scoring",
+   "Cross-team quality visibility"
+  ],
+  "coreFeatures": [
+   {
+    "title": "",
+    "description": "Real-time test execution dashboard with coverage, pass rates, and release readiness scoring"
+   },
+   {
+    "title": "",
+    "description": "Automated audit evidence collection with full requirement-to-test-to-result traceability"
+   },
+   {
+    "title": "",
+    "description": "Cross-team visibility into quality status across all squads and release branches"
+   },
+   {
+    "title": "",
+    "description": "Configurable release gates enforcing quality thresholds before deployment approval"
+   }
+  ],
+  "keyCapabilities": [
+   {
+    "title": "",
+    "description": "Eliminate release decisions based on incomplete data or personal judgment"
+   },
+   {
+    "title": "",
+    "description": "Replace 2-4 weeks of manual audit preparation with on-demand compliance reporting"
+   },
+   {
+    "title": "",
+    "description": "Provide every stakeholder, from QA engineer to CTO, with a single source of quality truth"
+   }
+  ],
+  "faq": null,
+  "agentGroup": "planning"
+ }
+}

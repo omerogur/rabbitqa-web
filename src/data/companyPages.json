@@ -1,0 +1,1186 @@
+{
+ "about": {
+  "hero": {
+   "title": "About RabbitQA",
+   "subtitle": "RabbitQA is the multi-agentic AI platform for digital product quality. We help banks, insurers, airlines, retailers, fintechs and ecommerce leaders predict risk, prevent failure and protect revenue across the full product development lifecycle."
+  },
+  "vision": {
+   "eyebrow": "",
+   "title": "Our Vision",
+   "subtitle": "",
+   "paragraphs": [
+    "Quality stopped being a phase a long time ago. It has not yet become a system. We think the next decade of software will be judged less on how fast teams ship and more on whether they can prove what they shipped was right. Requirements will be governed like code. Evidence will be produced as work happens rather than assembled before a review. And AI will do the preparation while people keep the decisions.",
+    "That is the platform we are building."
+   ]
+  },
+  "mission": {
+   "eyebrow": "",
+   "title": "Our Mission",
+   "subtitle": "Quality should never be the bottleneck. It should be the reason you can commit to a date and keep it.",
+   "image": "/landing/about/mission.jpg",
+   "paragraphs": [
+    "For over a decade our engineers ran quality programmes for banks, insurers, airlines and retailers. Thousands of releases. Hundreds of audits. More production incidents than we would like to count.",
+    "We learned the same lesson every time. The defect that costs the most is never the one testing catches. It is the requirement that was wrong before anyone wrote a line of code, and by the time a test fails, the money is already spent.",
+    "RabbitQA is that lesson, built as a platform. Launched in 2024, it takes the governance model our teams applied by hand and gives it to AI agents that can apply it at the speed modern delivery demands."
+   ]
+  },
+  "howWeBuild": {
+   "eyebrow": "How we build AI",
+   "title": "We kept people in the decisions.",
+   "subtitle": "",
+   "paragraphs": [
+    "Autonomy is the wrong goal for quality. Our customers answer to auditors, and a decision nobody can attribute is a decision nobody can defend. So approval is built in rather than offered as a setting, and the model stays under your contract, on your infrastructure if that is what your regulator expects.",
+    "Responsible AI is not a policy page for us. It is a constraint we accepted at the architecture stage."
+   ]
+  },
+  "values": {
+   "eyebrow": "",
+   "title": "Our Values",
+   "subtitle": "The principles that guide everything we do",
+   "image": "/landing/about/values.jpg",
+   "items": [
+    {
+     "icon": "Lightbulb",
+     "title": "Prevention over reaction.",
+     "text": "We measure ourselves by the failures that never reached production, not the bugs we logged after the fact."
+    },
+    {
+     "icon": "HeartHandshake",
+     "title": "Outcomes over output.",
+     "text": "Test counts are vanity. Risk reduced, releases shipped and revenue protected are the numbers that matter."
+    },
+    {
+     "icon": "ShieldCheck",
+     "title": "Governed, not gated. ",
+     "text": "Quality should accelerate teams, not block them. We govern the lifecycle so speed and compliance stop being a trade-off."
+    },
+    {
+     "icon": "Award",
+     "title": "Evidence over claims.",
+     "text": "Every metric we publish traces to a real engagement. We do not ship hollow superlatives."
+    },
+    {
+     "icon": "UserCheck",
+     "title": "Human judgement, always.",
+     "text": "Agents do the work. People make the calls. We do not ship a mode that removes them, and we do not think we should."
+    }
+   ]
+  },
+  "leadership": {
+   "eyebrow": "",
+   "title": "Leadership Team",
+   "subtitle": "Experienced leaders from top tech companies, united by a passion for quality",
+   "leaders": [
+    {
+     "name": "Arzu Barbaros",
+     "role": "Co-CEO",
+     "image": "/landing/about/ozgur-arzu-barbaros.jpg",
+     "linkedin": "https://www.linkedin.com/in/arzu-barbaros-91b135/"
+    },
+    {
+     "name": "Miraç Emektar",
+     "role": "Co-CEO",
+     "image": "/landing/about/mirac-emektar.jpg",
+     "linkedin": "https://www.linkedin.com/in/miracemektar/"
+    },
+    {
+     "name": "Tankut Tümay",
+     "role": "VP Global Sales",
+     "image": "/landing/about/tankut-tumay.jpg",
+     "linkedin": "https://www.linkedin.com/in/tankuttumay/"
+    },
+    {
+     "name": "Ali Aktolun",
+     "role": "Head of Technology & R&D",
+     "image": "/landing/about/ali-aktolun.jpg",
+     "linkedin": "https://www.linkedin.com/in/ali-aktolun-494490161/"
+    },
+    {
+     "name": "Murat Akyüz",
+     "role": "Head of Product",
+     "image": "/landing/about/murat-akyuz.jpg",
+     "linkedin": "https://www.linkedin.com/in/muratakyuzz/"
+    }
+   ]
+  },
+  "numbers": {
+   "eyebrow": "",
+   "title": "RabbitQA by the Numbers",
+   "items": [
+    {
+     "value": "10+",
+     "label": "Customers"
+    },
+    {
+     "value": "10M+",
+     "label": "AI-Generated Test Cases"
+    },
+    {
+     "value": "40%+",
+     "label": "Defect Reduction"
+    },
+    {
+     "value": "300K+",
+     "label": "Defects Detected"
+    }
+   ]
+  },
+  "partner": {
+   "title": "Become a Partner",
+   "subtitle": "",
+   "image": "/landing/about/partner.jpg",
+   "ctaLabel": "Become a Partner",
+   "ctaHref": "/partner",
+   "paragraphs": [
+    "Add an AI-native quality platform to your portfolio without building one. You keep every delivery hour: implementation, training and managed services revenue stays entirely yours, and we never compete for it.",
+    "Recurring rebates on the initial term and on every renewal. Deal registration, so an opportunity you bring is yours. Enablement and certification through RabbitQA Academy."
+   ]
+  },
+  "virgosol": {
+   "eyebrow": "About Virgosol",
+   "title": "RabbitQA is a Virgosol company",
+   "subtitle": "The quality engineering company behind RabbitQA.",
+   "image": "/landing/about/virgosol.jpg",
+   "paragraphs": [
+    "Virgosol is the quality engineering company behind RabbitQA. For more than a decade its teams have run testing and quality programmes for leading banks, insurers, airlines and retailers.",
+    "That field experience, across thousands of releases, audits and production incidents, is the foundation RabbitQA is built on.",
+    "Today Virgosol backs RabbitQA with the engineering, security and support organisation an enterprise platform requires."
+   ],
+   "ctaLabel": "virgosol.com",
+   "ctaHref": "https://virgosol.com"
+  },
+  "awards": {
+   "title": "Awards & Recognition",
+   "items": [
+    {
+     "text": "Best AI Product",
+     "logo": "/landing/about/the-ai-awards.svg"
+    },
+    {
+     "text": " Best AI Usage in Retail",
+     "logo": "/landing/about/the-ai-awards.svg"
+    },
+    {
+     "text": "Best Ethical Risk Management in AI Output",
+     "logo": "/landing/about/the-ai-awards.svg"
+    }
+   ],
+   "partnersTitle": "TRUSTED BY INDUSTRY LEADERS",
+   "partnerLogos": [
+    {
+     "name": "Turkcell",
+     "src": "/landing/clients/Turkcell.png"
+    },
+    {
+     "name": "Akbank",
+     "src": "/landing/clients/akbank-logo.png"
+    },
+    {
+     "name": "Boyner",
+     "src": "/landing/clients/boyner-logo.png"
+    },
+    {
+     "name": "Corendon",
+     "src": "/landing/clients/Corendon.png"
+    },
+    {
+     "name": "A101",
+     "src": "/landing/clients/a101-logo.png"
+    },
+    {
+     "name": "Anadolu Sigorta",
+     "src": "/landing/clients/anadolu-sigorta-logo.png"
+    },
+    {
+     "name": "Hopi",
+     "src": "/landing/clients/Hopi-logo-new.png"
+    }
+   ]
+  },
+  "brandKit": {
+   "title": "RabbitQA Brand Kit",
+   "subtitle": "Logos & marks (SVG) · hero backgrounds · brand colours",
+   "downloadLabel": "Download",
+   "files": [
+    {
+     "label": "Logo (SVG)",
+     "file": "/cms-uploads/brand/rabbitqa-logo.svg"
+    },
+    {
+     "label": "Logo, white (SVG)",
+     "file": "/cms-uploads/brand/rabbitqa-logo-white.svg"
+    },
+    {
+     "label": "Mark / favicon (SVG)",
+     "file": "/cms-uploads/brand/rabbitqa-mark.svg"
+    },
+    {
+     "label": "Mark, white (SVG)",
+     "file": "/cms-uploads/brand/rabbitqa-mark-white.svg"
+    },
+    {
+     "label": "Hero background (WebP)",
+     "file": "/cms-uploads/brand/hero-aurora-2880x1920.webp"
+    },
+    {
+     "label": "Dot grid (PNG)",
+     "file": "/cms-uploads/brand/hero-dot-grid.png"
+    }
+   ],
+   "showContents": false,
+   "href": "/brand/rabbitqa-brand-kit.zip"
+  },
+  "demoBand": {
+   "eyebrow": "",
+   "title": "Let's Talk Quality",
+   "subtitle": "Whether you have questions or just want to understand if RabbitQA is the right fit, our team will give you an honest look."
+  }
+ },
+ "partner": {
+  "badge": "PARTNER PROGRAM",
+  "title": "Become a partner.",
+  "titleHighlight": "Grow your business with RabbitQA.",
+  "subtitle": "Add an AI-native quality platform to your portfolio and open a recurring revenue line without building one. It is additive, so your customer's existing frameworks and pipeline keep running.",
+  "heroPrimaryCta": "Become a partner",
+  "heroSecondaryCta": "See the platform capabilities",
+  "whyPartner": {
+   "eyebrow": "WHY PARTNER WITH US",
+   "title": "A new revenue line, not a new R&D programme.",
+   "intro": "Earn recurring rebates plus renewal income, and keep 100% of the services revenue. We never compete for your implementation, training or managed service hours.",
+   "items": [
+    {
+     "id": "engine",
+     "icon": "Rocket",
+     "title": "Skip years of platform R&D",
+     "description": "Take a production-ready multi-agentic AI quality platform to market under a commercial model that fits how you already sell and deliver."
+    },
+    {
+     "id": "recurring",
+     "icon": "TrendingUp",
+     "title": "Recurring rebates and renewal income",
+     "description": "Every deal you influence pays on the initial term and keeps paying on renewal. Predictable, compounding revenue instead of one-off referral fees."
+    },
+    {
+     "id": "services",
+     "icon": "HandCoins",
+     "title": "Keep 100% of your services revenue",
+     "description": "Implementation, training and managed services stay yours. We never compete for your delivery hours or place our own team into your account."
+    },
+    {
+     "id": "easier",
+     "icon": "Award",
+     "title": "An easier deal to win",
+     "description": "Nothing gets ripped out. Your customer's Selenium suite, their Jira and their pipeline keep running, so the objection that kills most platform deals never comes up."
+    }
+   ]
+  },
+  "tiers": {
+   "eyebrow": "PARTNER TIERS",
+   "title": "Four ways to work with RabbitQA",
+   "subtitle": "Refer, resell, deliver or embed. Four models, four commercial frameworks, and a partner manager who helps you pick the right one.",
+   "items": [
+    {
+     "id": "refer",
+     "icon": "Share2",
+     "number": "01",
+     "name": "Referral Partner",
+     "tagline": "Introduce the opportunity. We close it.",
+     "description": "For ISVs, independent QA architects, advisors and community leaders with trusted relationships at decision-maker level, but no appetite for contracting, billing or delivery.",
+     "howItWorks": "You register the lead in the Partner Portal and our direct sales team runs the close.",
+     "youEarn": "A finder's fee on Year 1 net new ARR.",
+     "note": "Commitment: none. No delivery obligation, no certification requirement."
+    },
+    {
+     "id": "resell",
+     "icon": "Store",
+     "number": "02",
+     "name": "Reseller Partner",
+     "tagline": "Own the commercial relationship.",
+     "description": "For specialised consultancies and regional integrators who treat RabbitQA as a core part of their offering.",
+     "howItWorks": "You manage the sales cycle end to end and own the implementation, with your own team or through ours.",
+     "youEarn": "Quarterly rebates on net new ARR that rise with your tier, plus a rebate on every renewal. Marketing fund matching up to half your campaign investment.",
+     "note": "Tiers: Bronze, Silver, Gold."
+    },
+    {
+     "id": "certified",
+     "icon": "Wrench",
+     "number": "03",
+     "name": "Certified Partner",
+     "tagline": "Sell it, deliver it, support it.",
+     "description": "For regional and global firms embedding RabbitQA in a broader transformation practice, usually with vertical depth in finance, telecom or retail.",
+     "howItWorks": "You manage the sales cycle, own the implementation, and provide first and second level support. We back you with round-the-clock third level access.",
+     "youEarn": "The highest quarterly rebate tier on net new ARR, plus an enhanced renewal rebate.",
+     "note": "Requires: one certified sales professional, one technical professional and one support engineer."
+    },
+    {
+     "id": "msp",
+     "icon": "Layers",
+     "number": "04",
+     "name": "Managed Service Provider",
+     "tagline": "Make RabbitQA part of your own service.",
+     "description": "For outsourcing firms and QA delivery organisations who do not resell licences, but embed the platform in their own delivery to lift margin. In this model you are the commercial user.",
+     "howItWorks": "You licence in volume and use RabbitQA across your client base.",
+     "youEarn": "Volume-based pricing that improves as your committed licence count grows.",
+     "note": "Requires: two certified technical professionals."
+    }
+   ]
+  },
+  "support": {
+   "eyebrow": "WHAT YOU GET",
+   "title": "Backed by a programme, not a price list.",
+   "items": [
+    {
+     "id": "dealRegistration",
+     "icon": "ClipboardCheck",
+     "title": "Deal registration",
+     "description": "Register an opportunity and it is yours. One owner per account, written down, before you spend a quarter on the pipeline."
+    },
+    {
+     "id": "marginProtection",
+     "icon": "ShieldCheck",
+     "title": "Margin protection",
+     "description": "Protected pricing on registered deals. We do not undercut the partner who created the opportunity, and we do not place our own services team into your account."
+    },
+    {
+     "id": "portal",
+     "icon": "LayoutGrid",
+     "title": "Partner Portal",
+     "description": "Deal registration, pipeline visibility, sales and marketing collateral, and technical best practice material. Available to every partner type."
+    },
+    {
+     "id": "enablement",
+     "icon": "Users",
+     "title": "Enablement",
+     "description": "Sales plays, demo environments, solution architecture support and joint pursuit help from the team that builds the platform."
+    },
+    {
+     "id": "academy",
+     "icon": "GraduationCap",
+     "title": "RabbitQA Academy",
+     "description": "Product and delivery certification for reseller, certified and MSP partners. Until it opens, your partner manager runs enablement directly.",
+     "badge": "Coming soon"
+    }
+   ]
+  },
+  "formTitle": "Apply to the partner programme",
+  "formSubtitle": "Tell us about your business and how you want to work with RabbitQA. Our partner team replies within one business day.",
+  "formSuccessTitle": "Application received",
+  "formSuccessMessage": "Thanks, our partner team will be in touch within one business day.",
+  "form": {
+   "firstNameLabel": "First Name",
+   "firstNamePlaceholder": "e.g. John",
+   "lastNameLabel": "Last Name",
+   "lastNamePlaceholder": "e.g. Doe",
+   "workEmailLabel": "Work Email",
+   "workEmailPlaceholder": "you@company.com",
+   "companyNameLabel": "Company Name",
+   "companyNamePlaceholder": "Your company",
+   "phoneLabel": "Phone Number",
+   "phonePlaceholder": "151 000 0000",
+   "messageLabel": "Your Message",
+   "messagePlaceholder": "Tell us about your business, markets, and delivery capability…",
+   "consentLabel": "I agree to receive communications from RabbitQA and understand that I can opt out at any time.",
+   "submitLabel": "Apply to partner",
+   "finePrefix": "By submitting this form, you agree to our",
+   "termsLabel": "Terms of Use",
+   "privacyLabel": "Privacy Policy",
+   "and": "and",
+   "teamSizeLabel": "Team Size",
+   "teamSizePlaceholder": "Select team size"
+  },
+  "contactTitle": "Prefer to talk first?",
+  "contactDescription": "We can walk you through the four types, the rebate structure and enablement before you apply.",
+  "contactEmail": "sales@rabbitqa.com",
+  "contactEmailLabel": "Email the partner team",
+  "closingTitle": "",
+  "closingSubtitle": "",
+  "closingCta": "",
+  "heroTrust": "",
+  "billable": {
+   "title": "If it is billable, it is yours",
+   "paragraphs": [
+    "We do not compete for implementation, training, custom integration or managed service contracts. Not selectively, not deal by deal. If a client project involves service hours, those hours belong to the partner.",
+    "Most platform vendors run a professional services arm alongside a partner programme and manage the overlap case by case. We chose not to have the overlap.",
+    "That is what a zero-conflict programme means, and it is the reason partners bring us into accounts they would not otherwise share."
+   ]
+  },
+  "howItStarts": {
+   "title": "How it starts",
+   "steps": [
+    {
+     "title": "Choose your type",
+     "description": "Tell us how you work with your customers and we will tell you which of the four fits."
+    },
+    {
+     "title": "Sign the agreement",
+     "description": "One document, one commercial framework."
+    },
+    {
+     "title": "Get your partner manager",
+     "description": "A named person, not a shared inbox."
+    },
+    {
+     "title": "Start enablement",
+     "description": "Before your first joint pursuit, not during it."
+    }
+   ],
+   "footnote": "Four steps, and the first conversation takes thirty minutes."
+  },
+  "legalLine": ""
+ },
+ "certifications": {
+  "hero": {
+   "eyebrow": "Security",
+   "title": "Security Built In. Standards Backed Up.",
+   "intro": "RabbitQA is a multi-agentic AI platform for digital product quality, helping enterprises predict risk, prevent failure, and protect revenue across the full software lifecycle. Protecting customer data and maintaining the integrity of quality-critical processes is central to how we build and operate our platform."
+  },
+  "certsTitle": "Our Certifications",
+  "certs": [
+   {
+    "name": "ISO/IEC 27001:2022",
+    "logo": "/landing/certifications/iso-27001.svg",
+    "body": "RabbitQA's Information Security Management System (ISMS) is certified to the ISO/IEC 27001:2022 standard. This certification covers the establishment, implementation, and continual improvement of information security controls across our platform. Your data is protected by a verified, audited system, not internal policy alone.",
+    "scope": "Information Security Management"
+   },
+   {
+    "name": "ISO/IEC 42001",
+    "logo": "/landing/certifications/iso-42001.svg",
+    "body": "RabbitQA holds ISO/IEC 42001 certification, the international standard for AI management systems, introduced in 2023. This covers responsible development, deployment, and oversight of AI within our platform, ensuring every AI agent operates within a governed, transparent framework. Every decision stays with your team.",
+    "scope": "AI Management"
+   },
+   {
+    "name": "ISO 9001",
+    "logo": "/landing/certifications/iso-9001.svg",
+    "body": "Our Quality Management System (QMS) is certified to ISO 9001. For a platform built to govern digital product quality, this runs deeper than compliance: it reflects the same systematic, auditable approach to quality that RabbitQA brings to your engineering lifecycle.",
+    "scope": "Quality Management"
+   }
+  ],
+  "complianceTitle": "Regulatory Alignment",
+  "complianceIntro": "The EU regulatory frameworks that shape data protection, AI governance, operational resilience and accessibility.",
+  "alignmentNote": "",
+  "compliance": [
+   {
+    "name": "GDPR",
+    "description": "The EU's data-protection regulation governing how personal data is collected, processed and stored.",
+    "icon": "ShieldCheck",
+    "logo": "/landing/certifications/gdpr.svg"
+   },
+   {
+    "name": "EU AI Act",
+    "description": "The EU's risk-based regulation for the development and use of artificial intelligence systems.",
+    "icon": "Scale",
+    "logo": "/landing/certifications/eu-ai-act.svg"
+   },
+   {
+    "name": "DORA",
+    "description": "The Digital Operational Resilience Act, ICT risk and operational-resilience rules for the EU financial sector.",
+    "icon": "Landmark",
+    "logo": "/landing/certifications/dora.svg"
+   },
+   {
+    "name": "EU Data Act",
+    "description": "EU rules on fair access to, and sharing of, data generated by connected products and services.",
+    "icon": "Database",
+    "logo": "/landing/certifications/eu-data-act.svg"
+   },
+   {
+    "name": "CRA",
+    "description": "The Cyber Resilience Act, cybersecurity requirements for products with digital elements sold in the EU.",
+    "icon": "ShieldAlert",
+    "logo": "/landing/certifications/cra.svg"
+   },
+   {
+    "name": "WCAG / EAA",
+    "description": "Web Content Accessibility Guidelines and the European Accessibility Act, the standards for accessible digital products.",
+    "icon": "FaUniversalAccess",
+    "logo": "/landing/certifications/wcag-eaa.svg"
+   }
+  ],
+  "contactTitle": "Have Security Questions?",
+  "contactDescription": "Our team is happy to answer any questions.",
+  "contactEmail": "support@rabbitqa.com",
+  "demo": {
+   "title": "Talk to Our Security Team",
+   "subtitle": "See how RabbitQA governs quality and protects your data across the full lifecycle.",
+   "submitLabel": "Contact us"
+  },
+  "form": {
+   "firstName": "First Name",
+   "lastName": "Last Name",
+   "workEmail": "Work Email",
+   "companyName": "Company Name",
+   "phoneNumber": "Phone Number",
+   "teamSize": "Team Size",
+   "message": "Message",
+   "messagePlaceholder": "Tell us about your security and compliance needs...",
+   "consentText": "I agree to receive communications from RabbitQA and understand that I can opt out at any time."
+  }
+ },
+ "contact": {
+  "title": "Let's talk",
+  "subtitle": "Whether you're evaluating RabbitQA, ready to buy, or just have a question, our team is here to help.",
+  "ctaEmailLabel": "Contact Sales",
+  "ctaEmail": "sales@rabbitqa.com",
+  "stats": [
+   {
+    "id": "speed",
+    "value": "3x",
+    "label": "Faster to Market"
+   },
+   {
+    "id": "defects",
+    "value": "40%",
+    "label": "Defect Reduction"
+   },
+   {
+    "id": "cost",
+    "value": "50%",
+    "label": "Cost Saving"
+   },
+   {
+    "id": "modules",
+    "value": "12",
+    "label": "Integrated Modules"
+   }
+  ],
+  "formTitle": "Get in touch",
+  "formSubtitle": "Please complete the form below, and one of our team members will get in touch with you shortly..",
+  "formSuccessTitle": "Request received",
+  "formSuccessMessage": "Thanks, our team will be in touch within one business day.",
+  "form": {
+   "firstNameLabel": "First Name",
+   "firstNamePlaceholder": "e.g. John",
+   "lastNameLabel": "Last Name",
+   "lastNamePlaceholder": "e.g. Doe",
+   "workEmailLabel": "Work Email",
+   "workEmailPlaceholder": "you@company.com",
+   "companyNameLabel": "Company Name",
+   "companyNamePlaceholder": "Your company",
+   "phoneLabel": "Phone Number",
+   "phonePlaceholder": "+1 (555) 000-0000",
+   "teamSizeLabel": "Team Size",
+   "teamSizePlaceholder": "Select team size",
+   "messageLabel": "Your Message",
+   "messagePlaceholder": "Tell us about your QA challenges…",
+   "consentLabel": "I agree to receive communications from RabbitQA and understand that I can opt out at any time.",
+   "submitLabel": "Contact us",
+   "submittingLabel": "Sending…",
+   "finePrefix": "By submitting this form, you agree to our",
+   "termsLabel": "Terms of Use",
+   "privacyLabel": "Privacy Policy",
+   "and": "and"
+  },
+  "capabilitiesTitle": "Platform Capabilities",
+  "capabilities": [
+   {
+    "id": "speed",
+    "icon": "Zap",
+    "title": "3x Faster Test Cycles",
+    "description": "AI-powered automation with smart test generation and execution cuts manual testing time."
+   },
+   {
+    "id": "agents",
+    "icon": "Cpu",
+    "title": "AI Agent Architecture",
+    "description": "Three specialist agents autonomously handle business analysis, test planning, and technical testing."
+   },
+   {
+    "id": "coverage",
+    "icon": "BarChart3",
+    "title": "End-to-End Coverage",
+    "description": "13 integrated modules, from test case writing to load testing, accessibility audits to API monitoring."
+   },
+   {
+    "id": "security",
+    "icon": "Shield",
+    "title": "Enterprise-Grade Security",
+    "description": "TLS 1.3, AES-256 encryption, RBAC, WAF protection, and EU-hosted infrastructure."
+   },
+   {
+    "id": "compliance",
+    "icon": "Lock",
+    "title": "Compliance Ready",
+    "description": "Full audit trails, role-based access control, and data residency options for regulated industries."
+   },
+   {
+    "id": "integrations",
+    "icon": "Globe",
+    "title": "Seamless Integrations",
+    "description": "Native CI/CD pipeline integration with Jenkins, GitHub Actions, GitLab CI, and Azure DevOps."
+   }
+  ],
+  "directTitle": "Direct Contact",
+  "salesEmail": "sales@rabbitqa.com",
+  "supportEmail": "support@rabbitqa.com",
+  "officeTitle": "Office",
+  "officeAddress": "Kurfürstendamm 237, 10719 Berlin, Germany",
+  "office2Title": "",
+  "office2Address": "",
+  "followTitle": "Follow Us",
+  "existingTitle": "Technical support",
+  "existingDescription": "Access our support portal for technical assistance, documentation, and resources.",
+  "existingCtaLabel": "Access Support Portal",
+  "quickAnswerTitle": "Need a Quick Answer?",
+  "quickAnswerDescription": "Check out our resources and FAQ section for immediate answers to common questions.",
+  "quickAnswerCtaLabel": "Visit Resources",
+  "resourcesTitle": "Resources",
+  "docsUrl": "https://docs.rabbitqa.com",
+  "apiDocsUrl": "https://docs.rabbitqa.com/api/overview",
+  "docsLabel": "Documentation",
+  "apiLabel": "API Reference",
+  "responseTitle": "Response Time",
+  "responseDescription": "Our sales team typically responds within one business day. For urgent inquiries, call us directly."
+ },
+ "news": {
+  "badge": "",
+  "title": "News from RabbitQA",
+  "titleHighlight": "",
+  "subtitle": "Awards, announcements, and press coverage for the multi-agentic AI platform for digital product quality.",
+  "filterAllLabel": "All",
+  "categories": [
+   {
+    "id": "press-release",
+    "label": "Press Release"
+   },
+   {
+    "id": "announcement",
+    "label": "Announcement"
+   },
+   {
+    "id": "award",
+    "label": "Award"
+   }
+  ],
+  "featuredLabel": "Featured",
+  "readMoreLabel": "Read more",
+  "emptyStateMessage": "No items in this category yet. Check back soon.",
+  "items": [
+   {
+    "id": "ai-awards-2026-best-ai-product",
+    "category": "award",
+    "featured": true,
+    "date": "April 21, 2026",
+    "title": "RabbitQA Wins Three Awards at The AI Awards 2026",
+    "excerpt": "RabbitQA took home three separate awards at The AI Awards 2026, winning Best AI Product and two more categories for its work with Hopi and Quick Sigorta.",
+    "link": "/news/ai-awards-2026-best-ai-product",
+    "linkLabel": "Read the full story",
+    "image": "/landing/news/en/rabbitqa-ai-awards.jpg",
+    "body": [
+     {
+      "type": "p",
+      "text": "RabbitQA, the multi-agentic AI platform for digital product quality, has been recognised with three separate awards at The AI Awards 2026, one of the most prestigious global platforms for AI innovation."
+     },
+     {
+      "type": "p",
+      "text": "Bringing together leading brands and their AI projects from across the world, The AI Awards 2026 saw RabbitQA claim three category wins, affirming its impact at a global scale. RabbitQA took the \"Best AI Product\" award, while the solution developed for Hopi earned recognition in \"Best Use of AI in Retail\" and the application built for Quick Sigorta was awarded \"Best Ethical Risk Management in AI Outputs.\""
+     },
+     {
+      "type": "h2",
+      "text": "Barbaros: \"We are expanding our global impact\""
+     },
+     {
+      "type": "p",
+      "text": "Özgür Arzu Barbaros, Co-founder and Co-CEO of RabbitQA, commented: \"Winning three categories at The AI Awards 2026 demonstrates that RabbitQA is not only a world-class technology but a platform that is genuinely transforming business outcomes. The measurable impact we are creating across industries is the strongest validation of our growth strategy. We will continue building on this success as we expand our presence in international markets.\""
+     },
+     {
+      "type": "h2",
+      "text": "Emektar: \"RabbitQA proves our technology strength\""
+     },
+     {
+      "type": "p",
+      "text": "Miraç Emektar, Co-founder and Co-CEO of RabbitQA, added: \"These awards show how powerful RabbitQA is on a global scale and how it is driving transformation across different industries. We will continue deepening our expertise in end-to-end quality management through AI agents, and remain committed to creating lasting, high-impact outcomes in global markets.\""
+     }
+    ]
+   },
+   {
+    "id": "ai-awards-2026-retail-hopi",
+    "category": "award",
+    "featured": false,
+    "date": "April 21, 2026",
+    "title": "Hopi and RabbitQA Win Best AI Usage in Retail at The AI Awards 2026",
+    "excerpt": "The AI-driven retail experience model built on RabbitQA with Hopi won Best AI Usage in Retail at The AI Awards 2026, turning AI capability into measurable commercial value.",
+    "link": "/news/ai-awards-2026-retail-hopi",
+    "linkLabel": "Read the full story",
+    "image": "/landing/news/en/hopi-ai-awards.jpg",
+    "body": [
+     {
+      "type": "p",
+      "text": "The AI-driven retail experience and revenue optimization model built on RabbitQA in collaboration with Hopi has won \"Best AI Usage in Retail\" at The AI Awards 2026."
+     },
+     {
+      "type": "p",
+      "text": "The project demonstrates how AI can move beyond a technology layer and become a source of measurable business impact, delivering speed, quality, and tangible results at scale."
+     },
+     {
+      "type": "p",
+      "text": "Hopi and Virgosol claimed first place in the \"Best AI Usage in Retail\" category at The AI Awards 2026, one of the world's leading technology award programs. The program brings together technology companies, startups, and innovative projects from across the globe and evaluates submissions on the criteria of business impact, innovation, and implementation success."
+     },
+     {
+      "type": "p",
+      "text": "The award was presented at a ceremony held in London on 21 April 2026, recognising the \"Approach to AI-Driven Retail Experience & Revenue Optimization\" project for translating AI capability into measurable commercial value within the retail sector."
+     },
+     {
+      "type": "h2",
+      "text": "Quality as the foundation of AI-driven retail"
+     },
+     {
+      "type": "p",
+      "text": "As AI adoption accelerates across retail, ensuring that AI outputs are reliable, consistent, and aligned with business objectives becomes as critical as the AI capability itself. The solution built on RabbitQA enabled Hopi to govern quality across its AI-driven customer experience workflows end to end, from requirements through to production, ensuring that every AI output met reliability and performance standards before reaching the customer."
+     }
+    ]
+   },
+   {
+    "id": "ai-awards-2026-ethical-risk-quick-sigorta",
+    "category": "award",
+    "featured": false,
+    "date": "April 21, 2026",
+    "title": "Quick Sigorta and RabbitQA Win Best Ethical Risk Management in AI Output",
+    "excerpt": "Built on RabbitQA without any real customer data, the AI risk-management model for Quick Sigorta won Best Ethical Risk Management in AI Output at The AI Awards 2026.",
+    "link": "/news/ai-awards-2026-ethical-risk-quick-sigorta",
+    "linkLabel": "Read the full story",
+    "image": "/landing/news/en/quick-sigorta-ai-awards.jpg",
+    "body": [
+     {
+      "type": "p",
+      "text": "The AI risk management model built on RabbitQA in collaboration with Quick Sigorta has won \"Best Ethical Risk Management in AI Output\" at The AI Awards 2026."
+     },
+     {
+      "type": "p",
+      "text": "Developed without the use of real customer data, the system is being recognised as a new reference point for ethical and auditable AI practices in the insurance sector."
+     },
+     {
+      "type": "p",
+      "text": "Quick Sigorta and Virgosol achieved international recognition with a model designed for the safe and auditable management of AI outputs. At The AI Awards 2026, one of the world's leading technology award programs, the two organisations took first place in the \"Best Ethical Risk Management in AI Output\" category."
+     },
+     {
+      "type": "h2",
+      "text": "Tested Without Real Customer Data"
+     },
+     {
+      "type": "p",
+      "text": "As AI adoption grows across the insurance sector, data security, regulatory compliance, and the auditability of AI outputs have become increasingly critical. The model built on RabbitQA and Loadmance offered a structural response to each of these challenges."
+     },
+     {
+      "type": "p",
+      "text": "The system generated verifiable synthetic datasets for testing purposes, eliminating the need for real customer data throughout the process. An AI output control layer continuously monitored model results against reliability, bias, and compliance criteria."
+     },
+     {
+      "type": "p",
+      "text": "Performance testing simulated real user behaviour without accessing any personal data, enabling measurement of system performance under load and stress conditions while targeting zero data leakage risk."
+     },
+     {
+      "type": "h2",
+      "text": "\"We are turning AI into a manageable capability\""
+     },
+     {
+      "type": "p",
+      "text": "Quick Sigorta CEO Eyüp Özsoy noted that trust is the most important asset in the insurance sector and described transforming AI from a risk factor into an auditable enterprise capability as a strategic priority."
+     },
+     {
+      "type": "p",
+      "text": "Özsoy added that the model moves ethical AI beyond a guiding principle, translating it into an operationally applicable standard."
+     },
+     {
+      "type": "h2",
+      "text": "\"We brought ethical AI into operational reality\""
+     },
+     {
+      "type": "p",
+      "text": "Miraç Emektar, Co-founder and Co-CEO of RabbitQA, said the award demonstrates that work which moves ethical AI from rhetoric into practice is finding recognition at an international level."
+     },
+     {
+      "type": "p",
+      "text": "Emektar noted that building a test ecosystem capable of operating without real customer data and in full regulatory compliance represents a significant engineering achievement for the industry."
+     }
+    ]
+   }
+  ],
+  "mediaKit": {
+   "eyebrow": "MEDIA KIT",
+   "title": "Everything you need to write about RabbitQA.",
+   "subtitle": "Brand assets, product imagery, and a direct line to our team. Request the kit and we will send it over.",
+   "items": [
+    {
+     "id": "logo-pack",
+     "icon": "ImageIcon",
+     "title": "Logo pack",
+     "description": "RabbitQA logo in SVG and PNG, in light, dark, and icon-only variants."
+    },
+    {
+     "id": "brand-guidelines",
+     "icon": "BookOpen",
+     "title": "Brand guidelines",
+     "description": "Color palette, typography, spacing, and the rules for using the RabbitQA name and mark."
+    },
+    {
+     "id": "product-screenshots",
+     "icon": "Monitor",
+     "title": "Product screenshots",
+     "description": "High-resolution imagery of the platform, the three agents, and the module suite."
+    },
+    {
+     "id": "press-contact",
+     "icon": "Mail",
+     "title": "Press contact",
+     "description": "For interviews, quotes, and briefings, our team responds within one business day."
+    }
+   ],
+   "contactLabel": "Request the media kit",
+   "contactEmail": "sales@rabbitqa.com",
+   "contactNote": "Press and analyst enquiries are handled by our team at sales@rabbitqa.com."
+  }
+ },
+ "ctaForm": {
+  "eyebrow": "",
+  "title": "Let's Talk Quality",
+  "subtitle": "Whether you have questions or just want to understand if RabbitQA is the right fit, our team will give you an honest look.",
+  "fields": [
+   {
+    "id": "firstName",
+    "label": "First Name",
+    "placeholder": "First name",
+    "required": true,
+    "type": "text"
+   },
+   {
+    "id": "lastName",
+    "label": "Last Name",
+    "placeholder": "Last name",
+    "required": true,
+    "type": "text"
+   },
+   {
+    "id": "workEmail",
+    "label": "Work Email",
+    "placeholder": "you@company.com",
+    "required": true,
+    "type": "email"
+   },
+   {
+    "id": "companyName",
+    "label": "Company Name",
+    "placeholder": "Your company",
+    "required": true,
+    "type": "text"
+   },
+   {
+    "id": "jobTitle",
+    "label": "Job Title",
+    "placeholder": "e.g. QA Lead",
+    "required": true,
+    "type": "text"
+   },
+   {
+    "id": "country",
+    "label": "Country",
+    "placeholder": "Select country",
+    "required": true,
+    "type": "select"
+   },
+   {
+    "id": "phoneNumber",
+    "label": "Phone Number",
+    "placeholder": "151 000 0000",
+    "required": true,
+    "type": "tel"
+   },
+   {
+    "id": "teamSize",
+    "label": "Team Size",
+    "placeholder": "Select team size",
+    "required": false,
+    "type": "select"
+   },
+   {
+    "id": "message",
+    "label": "Message",
+    "placeholder": "Tell us about your needs...",
+    "required": false,
+    "type": "textarea"
+   }
+  ],
+  "teamSizeOptions": [
+   "1-10",
+   "11-50",
+   "51-200",
+   "201-500",
+   "500+"
+  ],
+  "countryLabel": "Country code",
+  "countrySearchPlaceholder": "Search country or code",
+  "countryEmpty": "No country found",
+  "countryNames": [
+   {
+    "code": "TR",
+    "name": "Türkiye"
+   },
+   {
+    "code": "US",
+    "name": "United States"
+   },
+   {
+    "code": "GB",
+    "name": "United Kingdom"
+   },
+   {
+    "code": "DE",
+    "name": "Germany"
+   },
+   {
+    "code": "NL",
+    "name": "Netherlands"
+   },
+   {
+    "code": "FR",
+    "name": "France"
+   },
+   {
+    "code": "ES",
+    "name": "Spain"
+   },
+   {
+    "code": "IT",
+    "name": "Italy"
+   },
+   {
+    "code": "AE",
+    "name": "United Arab Emirates"
+   },
+   {
+    "code": "SA",
+    "name": "Saudi Arabia"
+   },
+   {
+    "code": "QA",
+    "name": "Qatar"
+   },
+   {
+    "code": "KW",
+    "name": "Kuwait"
+   },
+   {
+    "code": "BH",
+    "name": "Bahrain"
+   },
+   {
+    "code": "OM",
+    "name": "Oman"
+   },
+   {
+    "code": "AT",
+    "name": "Austria"
+   },
+   {
+    "code": "AU",
+    "name": "Australia"
+   },
+   {
+    "code": "AZ",
+    "name": "Azerbaijan"
+   },
+   {
+    "code": "BE",
+    "name": "Belgium"
+   },
+   {
+    "code": "BR",
+    "name": "Brazil"
+   },
+   {
+    "code": "BG",
+    "name": "Bulgaria"
+   },
+   {
+    "code": "CA",
+    "name": "Canada"
+   },
+   {
+    "code": "CH",
+    "name": "Switzerland"
+   },
+   {
+    "code": "CN",
+    "name": "China"
+   },
+   {
+    "code": "CZ",
+    "name": "Czechia"
+   },
+   {
+    "code": "DK",
+    "name": "Denmark"
+   },
+   {
+    "code": "EG",
+    "name": "Egypt"
+   },
+   {
+    "code": "FI",
+    "name": "Finland"
+   },
+   {
+    "code": "GR",
+    "name": "Greece"
+   },
+   {
+    "code": "HK",
+    "name": "Hong Kong"
+   },
+   {
+    "code": "HR",
+    "name": "Croatia"
+   },
+   {
+    "code": "HU",
+    "name": "Hungary"
+   },
+   {
+    "code": "ID",
+    "name": "Indonesia"
+   },
+   {
+    "code": "IE",
+    "name": "Ireland"
+   },
+   {
+    "code": "IL",
+    "name": "Israel"
+   },
+   {
+    "code": "IN",
+    "name": "India"
+   },
+   {
+    "code": "JP",
+    "name": "Japan"
+   },
+   {
+    "code": "KZ",
+    "name": "Kazakhstan"
+   },
+   {
+    "code": "KR",
+    "name": "South Korea"
+   },
+   {
+    "code": "LT",
+    "name": "Lithuania"
+   },
+   {
+    "code": "LU",
+    "name": "Luxembourg"
+   },
+   {
+    "code": "LV",
+    "name": "Latvia"
+   },
+   {
+    "code": "MA",
+    "name": "Morocco"
+   },
+   {
+    "code": "MX",
+    "name": "Mexico"
+   },
+   {
+    "code": "MY",
+    "name": "Malaysia"
+   },
+   {
+    "code": "NG",
+    "name": "Nigeria"
+   },
+   {
+    "code": "NO",
+    "name": "Norway"
+   },
+   {
+    "code": "NZ",
+    "name": "New Zealand"
+   },
+   {
+    "code": "PH",
+    "name": "Philippines"
+   },
+   {
+    "code": "PK",
+    "name": "Pakistan"
+   },
+   {
+    "code": "PL",
+    "name": "Poland"
+   },
+   {
+    "code": "PT",
+    "name": "Portugal"
+   },
+   {
+    "code": "CY",
+    "name": "Cyprus"
+   },
+   {
+    "code": "RO",
+    "name": "Romania"
+   },
+   {
+    "code": "RS",
+    "name": "Serbia"
+   },
+   {
+    "code": "SE",
+    "name": "Sweden"
+   },
+   {
+    "code": "SG",
+    "name": "Singapore"
+   },
+   {
+    "code": "SK",
+    "name": "Slovakia"
+   },
+   {
+    "code": "SI",
+    "name": "Slovenia"
+   },
+   {
+    "code": "TH",
+    "name": "Thailand"
+   },
+   {
+    "code": "TW",
+    "name": "Taiwan"
+   },
+   {
+    "code": "UA",
+    "name": "Ukraine"
+   },
+   {
+    "code": "VN",
+    "name": "Vietnam"
+   },
+   {
+    "code": "ZA",
+    "name": "South Africa"
+   }
+  ],
+  "errors": {
+   "required": "This field is required",
+   "email": "Enter a valid work email address",
+   "phone": "Enter a valid phone number",
+   "consent": "Please accept the terms to continue"
+  },
+  "consentText": "I agree to receive communications from RabbitQA and understand that I can opt out at any time.",
+  "submitLabel": "Contact Us",
+  "successTitle": "Thanks, we will be in touch",
+  "successMessage": "Your request reached our team. A RabbitQA specialist will get back to you within one business day.",
+  "errorMessage": "Something went wrong while sending your request. Please try again.",
+  "retryLabel": "Try again",
+  "resetLabel": "Send another request",
+  "captchaError": "Please complete the security check so we know you are human.",
+  "optional": "Optional",
+  "finePrefix": "By submitting this form, you agree to our",
+  "termsLabel": "Terms of Use",
+  "privacyLabel": "Privacy Policy",
+  "fineAnd": "and"
+ }
+}
