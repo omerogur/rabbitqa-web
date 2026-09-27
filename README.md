@@ -1,22 +1,48 @@
-# RabbitQA — marketing website
+# RabbitQA — Pazarlama Sitesi
 
-Standalone Vite + React 19 + Tailwind v4 + Framer Motion site.
+RabbitQA'nın satış / tanıtım sitesi. Bağımsız **Vite + React 19 + Tailwind CSS v4 + Framer Motion**
+SPA; ürün turları gerçek uygulama ekranlarından (maskelenmiş) oluşturulan animasyonlardır, video
+değildir.
+
+## Kurulum
 
 ```bash
 npm install
-npm run dev      # http://localhost:5190
-npm run build
+npm run dev       # geliştirme sunucusu (Vite)
+npm run build     # production build → dist/
+npm run preview   # build'i yerelde önizle
+npm run lint      # oxlint
 ```
 
-## Structure
-- `src/components/LiveScreen.jsx` — the "screen recording" player: animates camera, cursor, clicks, highlight rings and toasts over real screenshots.
-- `src/data/scenes.js` — scene scripts (all coordinates are % of the screenshot, time is 0→1 per scene).
-- `src/data/modules.js` — module/agent copy used across nav, grid, industries.
-- `public/shots/*.webp` — product screenshots (2× retina, 1512×789 frame, names/customers masked).
+## Yayın (Vercel)
 
-## Adding a module screenshot
-1. Capture 4 quadrant zooms of the app window in Chrome (saved to disk).
-2. `raw/grab.sh <name>` stitches the 4 newest captures into `public/shots/<name>.webp`.
-3. Add a scene to `SCENES` and reference it from the module's `scenes` array in `modules.js` —
-   the module card gets a preview and a "Watch it live" link automatically.
-# rabbitqa-web
+- GitHub reposu Vercel'e bağlı: `main` branch'ine her push **canlıya**, diğer branch'ler ve
+  PR'lar **önizleme linkine** deploy edilir.
+- Ayarlar: Framework **Vite**, Build `npm run build`, Output `dist`. Environment variable yok.
+- `vercel.json` tüm yolları `index.html`'e yönlendirir; `/modules/autorunner` gibi derin linkler
+  yenilendiğinde 404 vermez.
+- Geri alma: Vercel → Deployments → önceki sürüm → **Promote to Production**.
+
+## Yapı
+
+```
+src/components/   Sayfa bölümleri + LiveScreen (ürün turu oynatıcısı)
+src/pages/        Rotalar: Home, Modules, Capabilities, Agents, Industry, Pricing, Company, Resources
+src/data/         Tüm içerik (JSON + modules.js + scenes.js)
+public/shots/     Maskelenmiş ürün ekran görüntüleri
+public/landing/   Eski kurumsal siteden taşınan görseller
+raw/              Ham çekimler ve çekim script'leri (git'e girmez)
+```
+
+## Dokümanlar
+
+- [`CLAUDE.md`](CLAUDE.md) — geliştirme rehberi: marka, satış sitesi ilkeleri, sahne formatı,
+  ekran görüntüsü / maskeleme kuralları, bilinen eksikler.
+- [`docs/ICERIK_REHBERI.md`](docs/ICERIK_REHBERI.md) — pazarlama ekibi için: hangi metin hangi
+  dosyada, blog yazısı ekleme, görsel değiştirme, yayınlama ve geri alma.
+
+## Yeni ürün ekranı ekleme (özet)
+
+1. Uygulamayı 1512×789 viewport'ta aç, gerçek kişi/müşteri adlarını maskele.
+2. Chrome'da 4 çeyrek zoom çekimi al → `raw/grab.sh <ad>` → `public/shots/<ad>.webp`.
+3. `src/data/scenes.js`'e sahne ekle ve ilgili akışa (`*_FLOW`) ya da modülün `scenes` dizisine bağla.
